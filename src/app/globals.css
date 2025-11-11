@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 @plugin "daisyui";
 
 @custom-variant dark (&:is(.dark *));
@@ -47,6 +48,10 @@
 }
 body {
   @apply bg-white dark:bg-black text-neutral-900 dark:text-neutral-100;
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat) !important;
 }
 
 @theme inline {
@@ -165,4 +170,170 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Hide Desktop Scrollbar */
+@media (min-width: 768px) {
+  /* Untuk desktop dan tablet besar */
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+
+  html {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-slow {
+  animation: spin-slow 3s linear infinite;
+}
+
+.linear-blur {
+  width: 100%;
+  pointer-events: none;
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  backdrop-filter: blur(8px);
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.linear-blur-to-t {
+  width: 100%;
+  pointer-events: none;
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  backdrop-filter: blur(2px);
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.linear-blur-navbar {
+  width: 100%;
+  pointer-events: none;
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  backdrop-filter: blur(4px);
+  mask-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.linear-blur-to-b {
+  width: 100%;
+  pointer-events: none;
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  backdrop-filter: blur(2px);
+  mask-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.linear-blur-to-searchbar {
+  width: 100%;
+  pointer-events: none;
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  backdrop-filter: blur(20px);
+  mask-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.margin {
+  @apply mx-4 md:mx-10
+}
+
+.spacing {
+  @apply py-10 md:py-20
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+p
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Show scrollbar only on hover */
+.scrollbar-hover::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  transition: width 0.2s;
+}
+.scrollbar-hover:hover::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-hover {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  transition: scrollbar-width 0.2s;
+}
+.scrollbar-hover:hover {
+  scrollbar-width: thin; /* Firefox */
+  -ms-overflow-style: auto; /* IE and Edge */
 }

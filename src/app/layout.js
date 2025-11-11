@@ -1,6 +1,8 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "next-themes";
+import { Navbar } from "@/components/navbar";
+import { CustomScrollbar } from "@/components/custom-scrollbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,8 +25,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ThemeProvider enableSystem={true} attribute={'class'}>
-          {children}
+        <ThemeProvider enableSystem attribute={'class'}>
+          <Navbar>
+            {children}
+          </Navbar>
+          <CustomScrollbar/>
         </ThemeProvider>
       </body>
     </html>
