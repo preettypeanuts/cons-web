@@ -113,7 +113,7 @@ export const HomeBanner = () => {
                     initial="hidden"
                     animate="visible"
                 >
-                    <div className="relative overflow-hidden rounded-none sm:rounded-lg">
+                    <div className="relative overflow-hidden rounded-lg">
                         <Image
                             width={1000}
                             height={1000}

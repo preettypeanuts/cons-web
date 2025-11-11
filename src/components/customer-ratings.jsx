@@ -141,7 +141,7 @@ export const CustomerReviews = () => {
                     {/* Navigation Arrows */}
                     <button
                         onClick={prevSlide}
-                        className="absolute -left-10 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 w-10 h-10 md:w-12 md:h-12 rounded-full border border-neutral-300 dark:border-neutral-700 hover:bg-orange-400 hover:border-orange-400 dark:hover:bg-orange-400 dark:hover:border-orange-400 hover:text-white duration-200 flex items-center justify-center opacity-50 group-hover:opacity-100 transition-opacity"
+                        className="hidden absolute -left-10 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 w-10 h-10 md:w-12 md:h-12 rounded-full border border-neutral-300 dark:border-neutral-700 hover:bg-orange-400 hover:border-orange-400 dark:hover:bg-orange-400 dark:hover:border-orange-400 hover:text-white duration-200 md:flex items-center justify-center opacity-50 group-hover:opacity-100 transition-opacity"
                         aria-label="Previous review"
                     >
                         <BsChevronLeft className="text-lg" />
@@ -149,7 +149,7 @@ export const CustomerReviews = () => {
 
                     <button
                         onClick={nextSlide}
-                        className="absolute -right-10 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 w-10 h-10 md:w-12 md:h-12 rounded-full border border-neutral-300 dark:border-neutral-700 hover:bg-orange-400 hover:border-orange-400 dark:hover:bg-orange-400 dark:hover:border-orange-400 hover:text-white duration-200 flex items-center justify-center opacity-50 group-hover:opacity-100 transition-opacity"
+                        className="hidden absolute -right-10 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 w-10 h-10 md:w-12 md:h-12 rounded-full border border-neutral-300 dark:border-neutral-700 hover:bg-orange-400 hover:border-orange-400 dark:hover:bg-orange-400 dark:hover:border-orange-400 hover:text-white duration-200 md:flex items-center justify-center opacity-50 group-hover:opacity-100 transition-opacity"
                         aria-label="Next review"
                     >
                         <BsChevronRight className="text-lg" />

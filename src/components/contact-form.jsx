@@ -39,7 +39,7 @@ export const ContactUs = () => {
                         className="object-cover grayscale hover:grayscale-0 duration-500"
                         priority
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
+                    <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent flex items-end p-8">
                         <div>
                             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-2">
                                 Get In Touch
@@ -180,7 +180,7 @@ export const ContactUs = () => {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
                             <div>
                                 <p className="opacity-60 mb-1">Email</p>
-                                <p className="font-light">info@conss.co.id</p>
+                                <p className="font-light">info@gab.co.id</p>
                             </div>
                             <div>
                                 <p className="opacity-60 mb-1">Phone</p>

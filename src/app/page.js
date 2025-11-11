@@ -1,5 +1,6 @@
 import { AboutUs } from "@/components/about-us";
 import { ContactUs } from "@/components/contact-form";
+import { CTA } from "@/components/cta";
 import { CustomerReviews } from "@/components/customer-ratings";
 import { FaqsAccordion } from "@/components/faqs-accordion";
 import { HomeBanner } from "@/components/home-banner";
@@ -16,6 +17,7 @@ export default function Home() {
       <CustomerReviews />
       <FaqsAccordion />
       <ContactUs />
+      <CTA />
     </>
   );
 }

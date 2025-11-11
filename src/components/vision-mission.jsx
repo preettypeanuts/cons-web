@@ -89,7 +89,7 @@ export const VisionMission = () => {
                         variants={itemVariants}
                     >
                         <div className="flex items-start gap-4 lg:gap-6">
-                            <div className="flex-shrink-0">
+                            <div className="shrink-0">
                                 <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full border-2 border-orange-400 dark:border-orange-400 flex items-center justify-center group-hover:bg-orange-400 dark:group-hover:bg-orange-400 duration-300">
                                     <span className="text-xl lg:text-2xl font-light group-hover:text-white duration-300">
                                         M
