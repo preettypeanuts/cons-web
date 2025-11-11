@@ -27,16 +27,16 @@ export const Navbar = ({ children }) => {
     }, []);
     return (
         <>
-            <div className={`${isScrolled ? "translate-y-0 opacity-100" : "-translate-100 opacity-0"} hidden duration-200 ease-in-out md:block fixed top-0 left-0 right-0 h-20 z-40 w-auto pointer-events-none linear-blur-navbar bg-gradient-to-b from-lightColor/15 dark:from-darkColor/20 to-transparent`} />
+            <div className={`${isScrolled ? "translate-y-0 opacity-100" : "-translate-100 opacity-0"} duration-200 ease-in-out fixed top-0 left-0 right-0 h-20 z-40 w-auto pointer-events-none linear-blur-navbar bg-linear-to-b from-lightColor/40 dark:from-darkColor/50 to-transparent`} />
 
-            <nav className={`${isScrolled ? "left-12 right-12":" left-9 right-9"} duration-300 fixed top-2  flex items-center justify-center z-555`}>
-                <div className={`${isScrolled && "bg-lightColor/50 dark:bg-darkColor/50"} grid grid-cols-3 gap-15 px-3 py-2 w-full rounded-full duration-300 ease-in-out`}>
+            <nav className={`${isScrolled ? "lg:left-12 lg:right-12 left-4 right-4" : "left-1.5 right-1.5 lg:left-9 lg:right-9"} duration-300 fixed top-2  flex items-center justify-center z-555`}>
+                <div className={`${isScrolled && "bg-lightColor/50 dark:bg-darkColor/50"} grid grid-cols-2 lg:grid-cols-3 gap-15 px-3 py-2 w-full rounded-full duration-300 ease-in-out`}>
 
                     <div className="text-lg">
                         <GiTwirlyFlower />
                     </div>
 
-                    <div className="flex items-center gap-6">
+                    <div className="hidden lg:flex items-center gap-6">
                         {NavbarItems.map((el, idx) => (
                             <Link
                                 key={idx}
@@ -52,7 +52,7 @@ export const Navbar = ({ children }) => {
 
                     <div className="flex flex-row justify-end gap-6" >
                         <ThemeSwitch />
-                        <HiMagnifyingGlass className="text-lg"/>
+                        <HiMagnifyingGlass className="text-lg" />
                     </div>
                 </div>
 
