@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { PiMagnifyingGlassBold } from "react-icons/pi";
+import Image from "next/image";
 
 export const Navbar = ({ children }) => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -32,8 +33,13 @@ export const Navbar = ({ children }) => {
             <nav className={`${isScrolled ? "lg:left-12 lg:right-12 left-4 right-4" : "left-1.5 right-1.5 lg:left-9 lg:right-9"} duration-300 fixed top-2  flex items-center justify-center z-555`}>
                 <div className={`${isScrolled && "bg-lightColor/50 dark:bg-darkColor/50"} grid grid-cols-2 lg:grid-cols-3 gap-15 px-3 py-2 w-full rounded-full duration-300 ease-in-out`}>
 
-                    <div className="text-lg">
-                        <GiTwirlyFlower />
+                    <div className="text-lg max-w-12 max-h-8 overflow-hidden flex items-center justify-center">
+                        <Image
+                            width={50}
+                            height={50}
+                            src="/icon.png"
+                            className={`${!isScrolled && "grayscale"} w-15 h-15 object-cover`}
+                            alt="Logo" />
                     </div>
 
                     <div className="hidden lg:flex items-center gap-6">
@@ -50,7 +56,7 @@ export const Navbar = ({ children }) => {
                         ))}
                     </div>
 
-                    <div className="flex flex-row justify-end gap-6" >
+                    <div className="flex flex-row items-center justify-end gap-6" >
                         <ThemeSwitch />
                         <HiMagnifyingGlass className="text-lg" />
                     </div>

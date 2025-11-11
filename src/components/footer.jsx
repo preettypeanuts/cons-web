@@ -1,4 +1,5 @@
 
+import Image from "next/image"
 import Link from "next/link"
 import { BsLinkedin, BsInstagram, BsTwitterX, BsFacebook } from "react-icons/bs"
 
@@ -32,6 +33,12 @@ export const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 py-12">
                     {/* Brand Section */}
                     <div className="md:col-span-5">
+                        <Image
+                            width={50}
+                            height={50}
+                            src="/icon.png"
+                            className={`w-15 h-15 object-cover`}
+                            alt="Logo" />
                         <h2 className="text-2xl font-bold mb-4">GAB</h2>
                         <p className="text-sm opacity-70 leading-relaxed max-w-md">
                             Perusahaan manufaktur dan distributor material industri berkualitas tinggi untuk kebutuhan industri Indonesia.
@@ -103,7 +110,7 @@ export const Footer = () => {
                             © {currentYear} GAB. All rights reserved.
                         </p>
                         <p className="text-xs opacity-60">
-                           Rise Beyond.
+                            Rise Beyond.
                         </p>
                     </div>
                 </div>
