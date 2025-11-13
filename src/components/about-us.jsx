@@ -10,8 +10,11 @@ export const AboutUs = () => {
             <div className="grid grid-cols-1 md:grid-cols-10 margin spacing">
                 <div className="md:col-span-2 md:ml-3 mb-4 md:mb-0">
                     <h1 className="uppercase font-light text-xs">
-                        About Us
+                        About
                     </h1>
+                    <h2 className="text-2xl lg:text-3xl font-light">
+                       Know Us Better
+                    </h2>
                 </div>
                 <div className="md:col-span-8">
                     <p className="text-lg sm:text-2xl md:text-3xl leading-tight tracking-wider font-normal text-justify">

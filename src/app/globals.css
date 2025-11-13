@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @plugin "daisyui";
+@import "tailwind-rounded-out";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -311,12 +312,13 @@ body {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
-p
+
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
 
 /* Show scrollbar only on hover */
 .scrollbar-hover::-webkit-scrollbar {
