@@ -37,7 +37,7 @@ export const CustomerReviews = () => {
 
         for (let i = 0; i < fullStars; i++) {
             stars.push(
-                <BsStarFill key={i} className="text-orange-400" />
+                <BsStarFill key={i} className="text-mainColor" />
             )
         }
 
@@ -46,7 +46,7 @@ export const CustomerReviews = () => {
                 <div key="half" className="relative">
                     <BsStarFill className="text-neutral-300 dark:text-neutral-700" />
                     <div className="absolute inset-0 overflow-hidden w-1/2">
-                        <BsStarFill className="text-orange-400" />
+                        <BsStarFill className="text-mainColor" />
                     </div>
                 </div>
             )

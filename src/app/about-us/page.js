@@ -12,7 +12,7 @@ export default function AboutUs() {
                 buttonIcon={<FaCompass />}
                 imageSrc="https://images.unsplash.com/photo-1653273760914-a83a14062bbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
                 imageAlt="Contact Us Banner"
-                onButtonClick={""}
+                onButtonClick={null}
             />
         </>
     )

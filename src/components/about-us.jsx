@@ -80,7 +80,7 @@ const StatCard = ({ stat, delay }) => {
             }}
         >
             <div className="flex items-center text-4xl sm:text-5xl md:text-6xl font-extralight mb-6 sm:mb-8 md:mb-10">
-                <p className="text-orange-400 tabular-nums">
+                <p className="text-mainColor tabular-nums">
                     {count}
                     {stat.suffix}
                 </p>

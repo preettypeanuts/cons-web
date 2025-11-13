@@ -31,7 +31,7 @@ const GalleryHeader = ({
                 </h1>
                 <h1 className="text-xl sm:text-2xl lg:text-3xl font-light">
                     {subtitle}{" "}
-                    <span className="text-orange-400">
+                    <span className="text-mainColor">
                         {highlight}
                     </span>
                 </h1>
@@ -69,7 +69,7 @@ const GalleryHeader = ({
                         <Button
                             size="icon"
                             variant="secondary"
-                            className="text-orange-400 h-9 w-9 sm:h-10 sm:w-10"
+                            className="text-mainColor h-9 w-9 sm:h-10 sm:w-10"
                             onClick={onPrev}
                         >
                             <ChevronLeft className="h-4 w-4" />
@@ -77,7 +77,7 @@ const GalleryHeader = ({
                         <Button
                             size="icon"
                             variant="secondary"
-                            className="text-orange-400 h-9 w-9 sm:h-10 sm:w-10"
+                            className="text-mainColor h-9 w-9 sm:h-10 sm:w-10"
                             onClick={onNext}
                         >
                             <ChevronRight className="h-4 w-4" />

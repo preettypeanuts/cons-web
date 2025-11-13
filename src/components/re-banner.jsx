@@ -16,7 +16,7 @@ export const ReBanner = ({
   onButtonClick,
   buttonClassName = "",
   titleClassName = "",
-  highlightClassName = "text-orange-400"
+  highlightClassName = "text-mainColor"
 }) => {
   const [isVisible, setIsVisible] = useState(false)
   const ref = useRef(null)

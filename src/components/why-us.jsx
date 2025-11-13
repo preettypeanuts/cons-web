@@ -22,7 +22,7 @@ export const WhyUs = () => {
                             <span className="opacity-80">
                                 Choose <br />
                             </span>
-                            <span className="text-orange-400 dark:text-orange-300">
+                            <span className="text-mainColor dark:text-orange-300">
                                 Us?
                             </span>
                         </p>
