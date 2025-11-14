@@ -328,423 +328,314 @@ export const galleryData = [
   }
 ];
 
+
 export const productsData = [
-
-  /* ------------------- CALCIA DIVISION ------------------- */
   {
-    category: "Products",
-    division: "Calcia Division",
-    item: "Quicklime",
-    description:
-      "Manufactured by calcining high-quality limestone at ≥900°C in Ulbe-Beckenbach vertical kilns.",
-    applications: [
-      "Steelmaking",
-      "Pig iron manufacture",
-      "Magnesium hydroxide feed",
-      "Soil stabilizers",
-      "Water treatment",
-      "Calcium compounds",
-      "Pulp & paper",
-      "Desiccants",
-      "Other industrial chemicals"
-    ],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 1,
+    "division": "Calcia Division",
+    "productName": "Quicklime",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Diproduksi dengan kalsinasi batu kapur berkualitas tinggi pada suhu ≥900°C di tanur vertikal Ulbe-Beckenbach.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "Calcia Division",
-    item: "Calcium hydroxide",
-    description:
-      "Produced by slaking quicklime with water, graded by particle size.",
-    applications: [
-      "Wastewater neutralization",
-      "Flue gas dechlorination",
-      "Fertilizer",
-      "Water & sewage treatment",
-      "Soil stabilizers",
-      "Other industrial chemical applications"
-    ],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 2,
+    "division": "Calcia Division",
+    "productName": "Calcium hydroxide",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Diproduksi dengan menyiram quicklime dengan air (slaking), digradasikan berdasarkan ukuran partikel.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "Calcia Division",
-    item: "Calcium carbonate",
-    description: "Produced by grinding limestone to various grades.",
-    applications: [
-      "Asphalt filler",
-      "Flue gas desulfurization",
-      "Wastewater neutralization",
-      "Steelmaking",
-      "Pig iron",
-      "Fertilizer",
-      "Animal feed",
-      "Aggregate",
-      "Rubber/paper fillers",
-      "Other industrial chemicals"
-    ],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 3,
+    "division": "Calcia Division",
+    "productName": "Calcium carbonate",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Diproduksi dengan menggiling batu kapur ke berbagai tingkatan (grade).",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "Calcia Division",
-    item: "Limestone",
-    description: "Extracted from high-quality mines in Japan.",
-    applications: [
-      "Cement",
-      "Quicklime",
-      "Flue gas desulfurization",
-      "Coated paper",
-      "Aggregate",
-      "Steelmaking",
-      "Glass"
-    ],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 4,
+    "division": "Calcia Division",
+    "productName": "Limestone",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Ditambang dari tambang berkualitas tinggi di Jepang.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "Calcia Division",
-    item: "Environmental Products",
-    description: "Calbreed: Highly reactive flue gas treatment agent.",
-    applications: ["Treatment of toxic gases (HCl, SOx, dioxins)"],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 5,
+    "division": "Calcia Division",
+    "productName": "Environmental Products (Calbreed)",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Agen pengolahan gas buang yang sangat reaktif.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
 
-  /* ------------------- SILICA DIVISION ------------------- */
+  /* Silica Division */
   {
-    category: "Products",
-    division: "Silica Division",
-    item: "Silica sand",
-    description: "High-purity SiO2 sand.",
-    applications: [
-      "Glass production",
-      "Foundry casting",
-      "Construction",
-      "Filtration",
-      "Fracking",
-      "Manufacturing"
-    ],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 6,
+    "division": "Silica Division",
+    "productName": "Silica sand",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Pasir SiO₂ dengan kemurnian tinggi.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "Silica Division",
-    item: "Silica gravel",
-    description: "Silica gravel used industrially and in construction.",
-    applications: [
-      "Filtration",
-      "Drainage",
-      "Landscaping",
-      "Construction",
-      "Epoxy flooring"
-    ],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 7,
+    "division": "Silica Division",
+    "productName": "Silica gravel",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Kerikil silika yang digunakan dalam industri dan konstruksi.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "Silica Division",
-    item: "Silica stones",
-    description: "High-silica rocks for refractory applications.",
-    applications: ["Filtration", "Drainage", "Landscaping", "Construction"],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 8,
+    "division": "Silica Division",
+    "productName": "Silica stones",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Batuan silika tinggi untuk aplikasi tahan api (refractory).",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "Silica Division",
-    item: "Environmental Products",
-    description:
-      "Dust & Erosion control products for mining and transport.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-
-  /* ------------------- ZEOLITE & BENTONITE DIVISION ------------------- */
-  {
-    category: "Products",
-    division: "Zeolite & Bentonite Division",
-    item: "Zeolite",
-    description:
-      "Naturally occurring minerals with porous framework, used in industrial, commercial, and environmental applications.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-  {
-    category: "Products",
-    division: "Zeolite & Bentonite Division",
-    item: "Bentonite",
-    description:
-      "Highly absorbent clay for drilling, cat litter, foundry binder, sealing, civil engineering, wine clarification, medicinal & cosmetic products.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-  {
-    category: "Products",
-    division: "Zeolite & Bentonite Division",
-    item: "Clinoptilolite",
-    description:
-      "Porous zeolite mineral. Composition: Na2/K2/Ca 3–4 [Al3Al2Si10O30]·12H2O",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-  {
-    category: "Products",
-    division: "Zeolite & Bentonite Division",
-    item: "Mordenite",
-    description:
-      "Selective adsorbent zeolite. Composition: (Ca, Na2, K2)Al2Si10O24·7H2O",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-  {
-    category: "Products",
-    division: "Zeolite & Bentonite Division",
-    item: "Environmental Products",
-    description: "Water treatment using Zeolite & Bentonite.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 9,
+    "division": "Silica Division",
+    "productName": "Environmental Products",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Produk pengendali debu dan erosi untuk penambangan dan transportasi.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
 
-  /* ------------------- MANGANESE DIVISION ------------------- */
+  /* Zeolite & Bentonite Division */
   {
-    category: "Products",
-    division: "Manganese Division",
-    item: "Manganese greensand",
-    description:
-      "Filter media for iron, manganese, and hydrogen sulfide removal from water.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 10,
+    "division": "Zeolite & Bentonite Division",
+    "productName": "Zeolite",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Mineral alami dengan kerangka berpori.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "Manganese Division",
-    item: "Manganese",
-    description:
-      "Element Mn, used in steel production to remove impurities and improve properties.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 11,
+    "division": "Zeolite & Bentonite Division",
+    "productName": "Bentonite",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Tanah liat yang sangat mudah menyerap (highly absorbent).",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "Manganese Division",
-    item: "Manganese sand",
-    description:
-      "Filter media composed of glauconite + MnO2, removes contaminants from drinking water.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-
-  /* ------------------- CLAY DIVISION ------------------- */
-  {
-    category: "Products",
-    division: "Clay Division",
-    item: "White clay",
-    description:
-      "Kaolin for paper, ceramics, paints, cosmetics, pharmaceuticals, plastics & rubber.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 12,
+    "division": "Zeolite & Bentonite Division",
+    "productName": "Clinoptilolite",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Mineral zeolit berpori dengan komposisi Na₂/K₂/Ca 3–4 [Al₃Al₂Si₁₀O₃₀]·12H₂O.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "Clay Division",
-    item: "Brown clay",
-    description:
-      "Clay soil for agriculture, gardening, construction, pottery, soil amendments.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-
-  /* ------------------- CIVIL ENGINEERING ------------------- */
-  {
-    category: "Products",
-    division: "Civil Engineering Products",
-    item: "Ground Improvement Materials",
-    description: "Green Lime LS & LC-E: Lime-based soil stabilization agents.",
-    applications: ["Stabilization of sludge", "Soft soils", "Mixed soils"],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 13,
+    "division": "Zeolite & Bentonite Division",
+    "productName": "Mordenite",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Zeolit adsorben selektif dengan komposisi (Ca, Na₂, K₂)Al₂Si₁₀O₂₄·7H₂O.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "Civil Engineering Products",
-    item: "Environmental Products",
-    description:
-      "Neutral soil stabilization (NP Series), Low-dust agent (LG), Heavy metal insolubilizing (MP Series, Super MAG).",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 14,
+    "division": "Zeolite & Bentonite Division",
+    "productName": "Environmental Products",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Produk untuk pengolahan air.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
 
-  /* ------------------- MANUFACTURING PROCESSES ------------------- */
+  /* Manganese Division */
   {
-    category: "Products",
-    division: "Manufacturing Processes",
-    item: "Flow Chart",
-    description:
-      "Limestone → Pulverizer → Calcium carbonate; Limestone → Ulbe-Beckenbach kiln → Quicklime; Limestone → Ulbe-Beckenbach kiln → Slaker → Calcium hydroxide.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 15,
+    "division": "Manganese Division",
+    "productName": "Manganese greensand",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Media filter untuk penghilangan besi, mangan, dan hidrogen sulfida dari air.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
+  },
+  {
+    "id": 16,
+    "division": "Manganese Division",
+    "productName": "Manganese (Element Mn)",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Elemen Mn digunakan dalam produksi baja untuk menghilangkan kotoran dan meningkatkan sifat.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
+  },
+  {
+    "id": 17,
+    "division": "Manganese Division",
+    "productName": "Manganese sand",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Media filter yang terdiri dari glaukonit + MnO₂ untuk menghilangkan kontaminan dari air minum.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
 
-  /* ------------------- R&D & ENGINEERING ------------------- */
+  /* Clay Division */
   {
-    category: "Products",
-    division: "R&D & Engineering",
-    item: "Production engineering",
-    description:
-      "Cost calculation, equipment management, operational reforms, digitalization, carbon-neutral initiatives.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 18,
+    "division": "Clay Division",
+    "productName": "White clay (Kaolin)",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Kaolin untuk kertas, keramik, cat, kosmetik, farmasi, plastik & karet.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "R&D & Engineering",
-    item: "Corporate research",
-    description:
-      "Medium- & long-term R&D for new products & technologies.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-  {
-    category: "Products",
-    division: "R&D & Engineering",
-    item: "Divisional research",
-    description:
-      "Collaboration across Magnesia, Calcia, and Fine Material Divisions.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-  {
-    category: "Products",
-    division: "R&D & Engineering",
-    item: "Planning & IP",
-    description:
-      "R&D strategy, intellectual property, material informatics utilization.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-  {
-    category: "Products",
-    division: "R&D & Engineering",
-    item: "ICT Initiatives",
-    description:
-      "Fuel optimization & automatic operation assistance for lime kiln.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-  {
-    category: "Products",
-    division: "R&D & Engineering",
-    item: "Orientation",
-    description: "Focus on environmentally sustainable products.",
-    applications: [],
-    examples: [],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 19,
+    "division": "Clay Division",
+    "productName": "Brown clay",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Tanah liat untuk pertanian, berkebun, konstruksi, tembikar, dan soil amendments.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
 
-  /* ------------------- R&D AREAS ------------------- */
+  /* Civil Engineering Division */
   {
-    category: "Products",
-    division: "R&D Areas",
-    item: "Electronics",
-    description: "Focus: Next-gen development, heat-conductive fillers, capacitors.",
-    applications: [],
-    examples: ["Materials for power devices", "Dielectric materials"],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 20,
+    "division": "Civil Engineering Products",
+    "productName": "Ground Improvement Materials (Green Lime LS & LC-E)",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Agen stabilisasi tanah berbasis kapur untuk lumpur, tanah lunak, dan tanah campuran.",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   },
   {
-    category: "Products",
-    division: "R&D Areas",
-    item: "Automotive",
-    description: "Focus: Next-gen development.",
-    applications: [],
-    examples: ["Heat-conductive fillers", "Heat-resistant coatings"],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-  {
-    category: "Products",
-    division: "R&D Areas",
-    item: "Environment & Energy",
-    description: "Focus: Carbon-free fuels, Synthesis/decomposition.",
-    applications: [],
-    examples: [
-      "Carbon recycling",
-      "Biodegradable materials",
-      "Batteries & energy storage"
-    ],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
-  },
-  {
-    category: "Products",
-    division: "R&D Areas",
-    item: "Industry & Infrastructure",
-    description: "Focus: Material recovery, Neutral substrates.",
-    applications: [],
-    examples: [
-      "Adsorbent materials",
-      "Low-impact purification",
-      "Exhaust treatment",
-      "Soil improvement",
-      "Flue gas desulfurization",
-      "Refractory raw materials"
-    ],
-    clients: [],
-    image: "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75"
+    "id": 21,
+    "division": "Civil Engineering Products",
+    "productName": "Environmental Products",
+    "partOf": "",
+    "productCategory": "",
+    "descriptions": "Stabilisasi tanah netral (NP Series), agen rendah debu (LG), dan penginsolubilisasi logam berat (MP Series, Super MAG).",
+    "keywords": "",
+    "isPublished": true,
+    "isPriority": false,
+    "price": "",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "detailType": ""
   }
 ]
+
+
+
 
