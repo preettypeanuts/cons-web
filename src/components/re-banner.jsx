@@ -1,5 +1,4 @@
-"use client"
-
+"use client";
 import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
 import { Button } from "./ui/button"
@@ -16,7 +15,8 @@ export const ReBanner = ({
   onButtonClick,
   buttonClassName = "",
   titleClassName = "",
-  highlightClassName = "text-mainColor"
+  highlightClassName = "text-mainColor",
+  children
 }) => {
   const [isVisible, setIsVisible] = useState(false)
   const ref = useRef(null)
@@ -38,7 +38,7 @@ export const ReBanner = ({
     const currentRef = ref.current
     if (currentRef) {
       observer.observe(currentRef)
-      
+
       // Check langsung saat mount jika sudah visible
       const rect = currentRef.getBoundingClientRect()
       if (rect.top < window.innerHeight && rect.bottom > 0) {
@@ -150,27 +150,37 @@ export const ReBanner = ({
           </motion.div>
         </div>
 
-        {/* Image Section */}
-        <motion.div
-          variants={imageVariants}
-          className="relative overflow-hidden rounded-lg shadow-xl group"
-          transition={{ duration: 0.3 }}
-        >
-          <Image
-            width={1920}
-            height={1080}
-            src={imageSrc}
-            alt={imageAlt}
-            className="w-full object-cover saturate-0 group-hover:saturate-100 transition-all duration-500 ease-in-out h-[40vh] sm:h-[45vh] md:h-[50vh] lg:h-[60vh] max-h-[60vh]"
-            priority
-          />
-          <motion.div
-            className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent"
-            initial={{ opacity: 0 }}
-            whileHover={{ opacity: 1 }}
-            transition={{ duration: 0.3 }}
-          />
-        </motion.div>
+        {imageSrc ? (
+          <>
+            {/* Image Section */}
+            <motion.div
+              variants={imageVariants}
+              transition={{ duration: 0.3 }}
+              className="relative overflow-hidden rounded-lg shadow-xl group"
+            >
+              <Image
+                width={1920}
+                height={1080}
+                src={imageSrc}
+                alt={imageAlt}
+                className="w-full object-cover saturate-0 group-hover:saturate-100 transition-all duration-500 ease-in-out h-[40vh] sm:h-[45vh] md:h-[50vh] lg:h-[60vh] max-h-[60vh]"
+                priority
+              />
+              <motion.div
+                className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent"
+                initial={{ opacity: 0 }}
+                whileHover={{ opacity: 1 }}
+                transition={{ duration: 0.3 }}
+              />
+            </motion.div>
+          </>
+        ) : (
+          <>
+            {children}
+          </>
+        )}
+
+
       </motion.div>
     </section>
   )

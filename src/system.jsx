@@ -13,21 +13,21 @@ export const NavbarItems = [
     label: "Projects",
     href: "/projects",
     icon: <HiHome />,
-    isMegaMenu: false,
+    isMegaMenu: true,
     isHome: false
   },
   {
     label: "Products",
     href: "/products",
     icon: <HiHome />,
-    isMegaMenu: false,
+    isMegaMenu: true,
     isHome: false
   },
   {
     label: "News",
     href: "/news",
     icon: <HiHome />,
-    isMegaMenu: false,
+    isMegaMenu: true,
     isHome: false
   },
   {
