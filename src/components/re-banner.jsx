@@ -114,7 +114,7 @@ export const ReBanner = ({
           {/* Title Section */}
           <motion.h1
             variants={titleVariants}
-            className={` text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl uppercase font-bold flex flex-col sm:flex-col items-start sm:items-start text-secondaryDark dark:text-neutral-300 tracking-tighter leading-none ${titleClassName}`}
+            className={`text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl uppercase font-bold flex flex-col sm:flex-col items-start sm:items-start text-secondaryDark dark:text-neutral-300 tracking-tighter leading-none ${titleClassName}`}
           >
             <span>{title}</span>
             <motion.span

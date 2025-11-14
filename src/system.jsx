@@ -341,7 +341,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -355,7 +355,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -369,7 +369,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -383,7 +383,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -397,7 +397,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
 
@@ -413,7 +413,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -427,7 +427,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -441,7 +441,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -455,7 +455,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
 
@@ -471,7 +471,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -485,7 +485,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -499,7 +499,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -513,7 +513,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -527,7 +527,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
 
@@ -543,7 +543,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -557,7 +557,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -571,7 +571,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
 
@@ -587,7 +587,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -601,7 +601,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
 
@@ -617,7 +617,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   },
   {
@@ -631,11 +631,229 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGEC%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
     "detailType": ""
   }
 ]
 
+export const newsData = [
+  {
+    id: 1,
+    title: "Transforming Construction with Sustainable Materials",
+    slug: "transforming-construction-with-sustainable-materials",
+    excerpt:
+      "Pemanfaatan material ramah lingkungan semakin menjadi standar baru dalam industri konstruksi modern.",
+    content: `
+      <article>
+        <h1>Transforming Construction with Sustainable Materials</h1>
+        <p><strong>Oleh GAB Editorial Team — 10 Januari 2025</strong></p>
+
+        <p>Pergeseran menuju material konstruksi yang ramah lingkungan bukan lagi sekadar tren—itu adalah kebutuhan. Tekanan regulasi, tuntutan pemilik proyek untuk dampak lingkungan lebih kecil, dan dorongan biaya total-kepemilikan yang lebih efisien membuat kontraktor dan insinyur menimbang ulang pemilihan material pada setiap tahap proyek.</p>
+
+        <h2>Mengapa material berkelanjutan sekarang penting?</h2>
+        <p>Material berkelanjutan membantu mengurangi jejak karbon langsung (mis. emisi dari produksi dan transport) dan jejak lingkungan tidak langsung (mis. konsumsi energi bangunan selama siklus hidup). Selain itu, penggunaan bahan seperti <em>quicklime</em>, silica berkualitas tinggi, dan bahan geosynthetic dapat meningkatkan performa teknis — misalnya stabilitas tanah dan daya tahan struktur — yang pada akhirnya mengurangi kebutuhan perawatan dan perbaikan berkala.</p>
+
+        <h2>Contoh aplikasi nyata</h2>
+        <ul>
+          <li><strong>Stabilisasi tanah:</strong> Quicklime dan hydrated lime dapat mengubah sifat fisik tanah lembek, meningkatkan bearing capacity, serta mengurangi pengembangan dan plastisitas tanah liat.</li>
+          <li><strong>Perbaikan drainase dan filtrasi:</strong> Silica sand dengan kemurnian tinggi sering dipakai sebagai media filtrasi dan sebagai agregat alami yang tahan lama.</li>
+          <li><strong>Kontrol emisi:</strong> Produk lingkungan seperti agen pengendali debu dan pengolahan gas buang mampu menurunkan polutan berbahaya sebelum dilepaskan ke atmosfer.</li>
+        </ul>
+
+        <h2>Manfaat ekonomi</h2>
+        <p>Penerapan material yang tepat dapat mengurangi total biaya proyek. Contohnya, stabilisasi tanah yang efektif menekan kebutuhan pemadatan ulang dan perbaikan pondasi, memperpanjang umur layanan jalan atau struktur, sehingga biaya operasi dan perawatan berkurang.</p>
+
+        <h2>Tantangan dan solusi implementasi</h2>
+        <p>Penerapan material baru sering menghadapi hambatan seperti ketersediaan supply chain, kurva belajar pada teknik aplikasi, dan standar teknis yang harus disesuaikan. Solusi praktis meliputi uji lapangan terencana, pilot project kecil, dan kolaborasi awal antara produsen material, kontraktor, dan konsultan desain.</p>
+
+        <h2>Kesimpulan</h2>
+        <p>Transformasi industri konstruksi menuju keberlanjutan tidak hanya bergantung pada inovasi material, tetapi juga pada kemampuan industri untuk mengadaptasi praktik desain, konstruksi, dan operasi. Material seperti lime-based stabilizers, silica, serta produk lingkungan memberikan jalur praktis dan terukur untuk mempercepat transisi ini.</p>
+      </article>
+    `,
+    category: "Construction",
+    tags: ["sustainability", "materials", "engineering"],
+    author: "GAB Editorial Team",
+    date: "2025-01-10",
+    image:
+      "https://images.unsplash.com/photo-1550814669-8d924a4ec743?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+
+  {
+    id: 2,
+    title: "How Lime Products Improve Soil Stabilization",
+    slug: "how-lime-products-improve-soil-stabilization",
+    excerpt:
+      "Quicklime dan hydrated lime menjadi material utama dalam stabilisasi tanah untuk proyek infrastruktur.",
+    content: `
+      <article>
+        <h1>How Lime Products Improve Soil Stabilization</h1>
+        <p><strong>Oleh GAB Engineering Team — 5 Februari 2025</strong></p>
+
+        <p>Stabilisasi tanah merupakan bagian krusial dari pekerjaan prasarana: jalan, landasan, dan area industri. Lime products — termasuk quicklime (CaO) dan hydrated lime (Ca(OH)₂) — telah terbukti meningkatkan sifat mekanik tanah dan mengurangi potensi deformasi yang merugikan.</p>
+
+        <h2>Prinsip kerja lime dalam tanah</h2>
+        <p>Quicklime bereaksi secara eksotermik ketika ditambahkan ke tanah yang mengandung kelembapan; reaksi ini mengurangi kadar air dan mengubah struktur partikel tanah melalui proses agrega­tasi. Hydrated lime memberikan efek jangka panjang dengan meningkatkan sisipan ionik dan stabilitas kimia tanah.</p>
+
+        <h3>Manfaat teknis</h3>
+        <ol>
+          <li><strong>Meningkatkan bearing capacity:</strong> Kapasitas dukung tanah meningkat, memungkinkan pengurangan kedalaman pondasi.</li>
+          <li><strong>Menurunkan plastisitas:</strong> Tanah liat menjadi lebih “kaku” dan kurang rentan mengalami perubahan volume akibat kelembapan.</li>
+          <li><strong>Mempercepat waktu pemadatan:</strong> Reaksi kimia mengurangi kelembapan in-situ sehingga mesin pemadatan menjadi lebih efektif.</li>
+        </ol>
+
+        <h2>Desain aplikasi yang baik</h2>
+        <p>Keberhasilan stabilisasi bergantung pada dosis, distribusi material, dan waktu curing. Langkah-langkah umum meliputi:</p>
+        <ul>
+          <li>Uji karakterisasi tanah awal (sifat fisik dan kimia).</li>
+          <li>Penentuan dosis lime melalui uji laboratorium (CBR, plasticity index).</li>
+          <li>Pencampuran mekanis, pemadatan, dan curing sesuai spesifikasi proyek.</li>
+        </ul>
+
+        <h2>Kasus studi singkat</h2>
+        <p>Pada sebuah proyek perbaikan jalan pedesaan, penggunaan quicklime mengurangi kebutuhan pemadatan ulang hingga 35% dan mempercepat jadwal konstruksi sebesar 20%. Hasil ini menurunkan biaya langsung dan meminimalkan gangguan layanan komunitas.</p>
+
+        <h2>Kendala lingkungan & mitigasinya</h2>
+        <p>Penanganan kapur harus memperhatikan debu dan reaksi eksotermik. Mitigasi mencakup kontrol debu terintegrasi (air spray), penggunaan bahan baku bermutu, dan SOP keselamatan selama pencampuran.</p>
+
+        <h2>Penutup</h2>
+        <p>Lime products tetap menjadi solusi cost-effective untuk stabilisasi tanah bila diaplikasikan dengan desain dan kontrol kualitas yang tepat. Kolaborasi antara peneliti, produsen, dan kontraktor menjadi kunci untuk hasil yang optimal.</p>
+      </article>
+    `,
+    category: "Engineering",
+    tags: ["soil", "lime", "civil engineering"],
+    author: "GAB Engineering Team",
+    date: "2025-02-05",
+    image:
+      "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=1200&q=80"
+  },
+
+  {
+    id: 3,
+    title: "The Role of Silica in Modern Manufacturing",
+    slug: "the-role-of-silica-in-modern-manufacturing",
+    excerpt:
+      "Silica menjadi salah satu bahan utama dalam industri glass, foundry, filtration, hingga energi.",
+    content: `
+      <article>
+        <h1>The Role of Silica in Modern Manufacturing</h1>
+        <p><strong>Oleh GAB Research Team — 2 Maret 2025</strong></p>
+
+        <p>Silica (SiO₂) adalah bahan serbaguna yang memainkan peran penting dalam banyak rantai pasok industri: dari produksi kaca berkualitas tinggi hingga material filtrasi untuk pengolahan air. Kualitas silica — terutama kemurnian dan ukuran butir — menentukan kinerja akhir pada aplikasi spesifik.</p>
+
+        <h2>Aplikasi utama silica</h2>
+        <ul>
+          <li><strong>Produksi kaca:</strong> Silica high-purity menjadi bahan baku utama dalam pembuatan kaca datar dan kemas.</li>
+          <li><strong>Foundry casting:</strong> Pasir silica tahan panas digunakan sebagai media cetak dalam penGABoran logam.</li>
+          <li><strong>Filtrasi & drainase:</strong> Silica sand dan gravel dipakai untuk menahan partikel dan menyediakan lapisan drainase yang stabil.</li>
+          <li><strong>Industri energi & fracking:</strong> sebagai proppant ataupun komponen dalam proses manufaktur terkait.</li>
+        </ul>
+
+        <h2>Faktor kualitas</h2>
+        <p>Beberapa parameter kualitas silica yang sering diukur termasuk kadar SiO₂ (%), ukuran butir (mesh), dan kandungan logam berat. Untuk aplikasi elektronik atau optik, tingkat kemurnian harus sangat tinggi untuk mencegah cacat produk akhir.</p>
+
+        <h2>Inovasi & optimasi</h2>
+        <p>Perkembangan pemurnian dan pemrosesan (seperti milling dan thermal treatment) memungkinkan pembuatan silica dengan dispersi tinggi dan ukuran partikel yang sangat terkendali. Ini membuka peluang penggunaan silica dalam material komposit modern, seperti filler untuk polimer yang meningkatkan sifat mekanik dan termal.</p>
+
+        <h2>Keberlanjutan</h2>
+        <p>Pengelolaan tambang, transportasi, dan proses pemurnian menjadi aspek penting dalam rantai nilai silica. Praktik penambangan bertanggung jawab, serta penggunaan material daur ulang bila memungkinkan, membantu menurunkan dampak lingkungan.</p>
+
+        <h2>Kesimpulan</h2>
+        <p>Silica tetap menjadi salah satu bahan dasar paling kritis di industri manufaktur. Investasi pada teknologi pemrosesan dan kontrol kualitas akan menentukan bagaimana silica digunakan di generasi produk berikutnya — dari kaca khusus hingga material energi canggih.</p>
+      </article>
+    `,
+    category: "Materials",
+    tags: ["silica", "manufacturing", "industry"],
+    author: "GAB Research Team",
+    date: "2025-03-02",
+    image:
+      "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
+  },
+
+  {
+    id: 4,
+    title: "Zeolite & Bentonite: The Natural Solution for Water Treatment",
+    slug: "zeolite-bentonite-natural-solution-for-water-treatment",
+    excerpt:
+      "Zeolite dan bentonite adalah mineral alami yang efektif untuk filtrasi air dan pengolahan limbah.",
+    content: `
+      <article>
+        <h1>Zeolite & Bentonite: The Natural Solution for Water Treatment</h1>
+        <p><strong>Oleh GAB Environmental Lab — 28 Januari 2025</strong></p>
+
+        <p>Di tengah meningkatnya kebutuhan air bersih, teknologi sederhana namun efektif seperti zeolite dan bentonite kembali mendapat perhatian. Kedua mineral ini memiliki sifat fisik dan kimia yang mendukung penghilangan ion, adsorpsi zat berbahaya, dan peningkatan kualitas air.</p>
+
+        <h2>Sifat dan mekanisme kerja</h2>
+        <p><strong>Zeolite</strong> adalah aluminosilikat berpori dengan kemampuan pertukaran ion yang tinggi — ideal untuk menjerat kation seperti ammonium, heavy metals, dan beberapa organik. <strong>Bentonite</strong>, berupa lempung yang sangat absorben, efektif menyerap partikel halus, minyak, dan membantu flokulasi bahan tersuspensi.</p>
+
+        <h2>Aplikasi praktis</h2>
+        <ul>
+          <li><strong>Pengolahan air minum:</strong> kombinasi zeolite dan bentonite dapat menurunkan kandungan logam berat dan memperbaiki kejernihan.</li>
+          <li><strong>Industri & limbah:</strong> penggunaan dalam kolom adsorpsi, filter bed, dan sebagai media pendukung untuk proses biologis.</li>
+          <li><strong>Remediasi lingkungan:</strong> penempatan zeolit pada area kontaminasi untuk menurunkan mobilitas logam berat di tanah dan badan air.</li>
+        </ul>
+
+        <h2>Desain sistem dan operasional</h2>
+        <p>Perancangan unit filter harus mempertimbangkan ukuran partikel, laju aliran, headloss, dan strategi regenerasi media. Zeolite dapat diregenerasi tergantung jenis kontaminan; bentonite, bila digunakan sebagai media sekali pakai, mudah diganti dan diolah.</p>
+
+        <h2>Keuntungan ekonomi</h2>
+        <p>Media alami umumnya lebih terjangkau dibanding adsorben sintetis. Selain itu, umur layanan yang panjang dan potensi regenerasi memberikan pengurangan biaya operasional jangka panjang.</p>
+
+        <h2>Penutup</h2>
+        <p>Zeolite dan bentonite menawarkan solusi pragmatis untuk tantangan pengolahan air—efektif, dapat diskalakan, dan relatif sederhana dioperasikan. Integrasi media ini ke dalam desain pengolahan membantu memenuhi standar kualitas air yang ketat dengan biaya yang kompetitif.</p>
+      </article>
+    `,
+    category: "Environmental",
+    tags: ["water treatment", "zeolite", "bentonite"],
+    author: "GAB Environmental Lab",
+    date: "2025-01-28",
+    image:
+      "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
+  },
+
+  {
+    id: 5,
+    title: "Understanding Manganese for Industrial Applications",
+    slug: "understanding-manganese-for-industrial-applications",
+    excerpt:
+      "Manganese adalah elemen penting untuk produksi baja, filtrasi air, dan aplikasi industrial.",
+    content: `
+      <article>
+        <h1>Understanding Manganese for Industrial Applications</h1>
+        <p><strong>Oleh GAB Minerals Division — 1 April 2025</strong></p>
+
+        <p>Manganese (Mn) adalah unsur logam yang memiliki peran luas dalam industri: dari alloying dalam pembuatan baja hingga aplikasi sebagai media filtrasi (greensand) untuk penghilangan besi dan mangan dalam air. Memahami karakteristik material ini membantu teknisi memilih bentuk dan formulasi yang tepat untuk kebutuhan spesifik.</p>
+
+        <h2>Peran dalam produksi baja</h2>
+        <p>Dalam metallurgy, mangan bertindak sebagai agen pengikat belerang, meningkatkan fluiditas, dan memperbaiki sifat mekanik baja. Kandungan Mn yang tepat memberikan kombinasi kekuatan dan keuletan yang diinginkan untuk berbagai aplikasi struktural.</p>
+
+        <h2>Manganese sebagai media filtrasi</h2>
+        <p>Manganese greensand dan manganese sand adalah media efektif untuk mengoksidasi dan mengikat besi serta mangan terlarut. Sistem filter yang dirancang dengan benar mampu mengatasi masalah kualitas air yang sering ditemukan pada sumur dan sistem distribusi air permukiman.</p>
+
+        <h3>Keunggulan teknis:</h3>
+        <ul>
+          <li>Efektif terhadap besi (Fe) dan mangan (Mn) terlarut.</li>
+          <li>Bekerja baik pada rentang pH yang wajar setelah penyesuaian pra-treatment.</li>
+          <li>Mudah diintegrasikan ke sistem filter bed bertingkat.</li>
+        </ul>
+
+        <h2>Pertimbangan lingkungan & kesehatan</h2>
+        <p>Pengolahan dan penanganan material mangan harus memperhatikan paparan pekerja dan kontrol limbah. Meski mangan esensial dalam jumlah kecil bagi organisme, kadar tinggi di lingkungan dapat menimbulkan masalah ekotoksisitas.</p>
+
+        <h2>Pengembangan & inovasi</h2>
+        <p>Riset saat ini berfokus pada formulasi media filtrasi yang lebih tahan lama, proses regenerasi yang hemat air, dan pengurangan kebutuhan penambahan bahan kimia pendukung. Ada juga minat untuk menggabungkan media mangan dengan adsorben lain untuk performa multi-kontaminan.</p>
+
+        <h2>Kesimpulan</h2>
+        <p>Manganese tetap menjadi komponen kunci dalam rangkaian material industri. Dengan desain sistem yang tepat dan praktik lingkungan yang baik, mangan memberikan solusi handal untuk kebutuhan metallurgy dan pengolahan air.</p>
+      </article>
+    `,
+    category: "Industry",
+    tags: ["manganese", "steel", "industry"],
+    author: "GAB Minerals Division",
+    date: "2025-04-01",
+    image:
+      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80"
+  }
+];
 
 
 

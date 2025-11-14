@@ -72,8 +72,8 @@ export const Navbar = ({ children }) => {
         <>
             <div className={`${isScrolled ? "translate-y-0 opacity-100" : "-translate-100 opacity-0"} md:flex hidden duration-200 ease-in-out fixed top-0 left-0 right-0 h-20 z-40 w-auto pointer-events-none linear-blur-navbar bg-linear-to-b from-lightColor/40 dark:from-darkColor/50 to-transparent`} />
 
-            <nav className={`${isScrolled ? "lg:left-10 lg:right-10 left-4 right-4" : "left-1.5 right-1.5 lg:left-9 lg:right-9"} hidden duration-300 fixed top-2  md:flex items-center justify-center z-555`}>
-                <div className={`${isScrolled && "bg-lightColor/50 dark:bg-darkColor/50"} flex items-center justify-between gap-15 px-3 py-2 w-full rounded-full duration-300 ease-in-out`}>
+            <nav className={`${isScrolled ? "lg:left-0 lg:right-0 left-4 right-4 border-b border-b-neutral-600/20 dark:border-neutral-300/20" : "left-1.5 right-1.5 lg:left-0 lg:right-0"} px-10  hidden duration-300 fixed top-0 md:flex items-center justify-center z-555`}>
+                <div className={`${isScrolled && "bg-lightColor/40 dark:bg-darkColor/25"} flex items-center justify-between gap-15 px-0 py-2 w-full duration-300 ease-in-out`}>
                     <div className="text-lg max-w-10 max-h-5 overflow-hidden flex items-center justify-center w-full">
                         <Image
                             width={50}
@@ -97,7 +97,7 @@ export const Navbar = ({ children }) => {
                 </div>
                 <div
                     onClick={scrollToTop}
-                    className={`${isScrolled && "bg-lightColor/50 dark:bg-darkColor/50"} flex items-center justify-between gap-15 px-2 py-2 w-fit rounded-full duration-300 ease-in-out ml-2 active:scale-90`}>
+                    className={`${isScrolled && "hover:bg-lightColor/50 dark:hover:bg-darkColor/50"} flex items-center justify-between gap-15 px-2 py-2 w-fit duration-300 ease-in-out ml-2 active:scale-90`}>
                     <button
                         className={`${isScrolled ? "scale-100 translate-y-0" : "scale-0 -translate-y-full"} duration-300 origin-top hover:text-mainColor cursor-pointer`}
                     >
@@ -111,32 +111,3 @@ export const Navbar = ({ children }) => {
         </>
     )
 }
-
-{/* <div className={`${isScrolled && "bg-lightColor/50 dark:bg-darkColor/50"} grid grid-cols-2 lg:grid-cols-3 gap-15 px-3 py-2 w-full rounded-full duration-300 ease-in-out`}>
-
-    <div className="text-lg max-w-12 max-h-8 overflow-hidden flex items-center justify-center w-full">
-        <Image
-                            width={50}
-                            height={50}
-                            src="/icon.png"
-                            className={`${!isScrolled && "grayscale"} w-15 h-15 object-cover`}
-                            alt="Logo" />
-        <GiTwirlyFlower className="text-lg" />
-    </div>
-
-    <div className="hidden lg:flex items-center justify-center gap-10">
-        {NavbarItems.map((el, idx) => (
-            <PageLinks
-                key={idx}
-                href={el.href}
-            >
-                {el.label}
-            </PageLinks>
-        ))}
-    </div>
-
-    <div className="flex flex-row items-center justify-end gap-6" >
-        <ThemeSwitch />
-        <HiMagnifyingGlass className="text-lg" />
-    </div>
-</div> */}
