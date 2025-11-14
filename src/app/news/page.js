@@ -1,3 +1,4 @@
+import { CardNews } from "@/components/card-news";
 import { HighligtedNews } from "@/components/highlighted-news";
 import { ReBanner } from "@/components/re-banner";
 import { newsData } from "@/system";
@@ -17,6 +18,7 @@ export default function News() {
                 onButtonClick={null}
             />
             <HighligtedNews data={newsData[0]} />
+            <CardNews data={newsData} />
         </>
     )
 }

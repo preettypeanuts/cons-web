@@ -1,5 +1,4 @@
-import { AboutUs } from "@/components/about-us";
-import { ContactUs } from "@/components/contact-form";
+import { AboutUsComponent } from "@/components/about-us-component";
 import { CTA } from "@/components/cta";
 import { CustomerReviews } from "@/components/customer-ratings";
 import { FaqsAccordion } from "@/components/faqs-accordion";
@@ -11,12 +10,9 @@ export default function Home() {
   return (
     <>
       <HomeBanner />
-      <AboutUs />
-      <VisionMission />
+      <AboutUsComponent />
       <WhyUs />
       <CustomerReviews />
-      <FaqsAccordion />
-      <ContactUs />
       <CTA />
     </>
   );

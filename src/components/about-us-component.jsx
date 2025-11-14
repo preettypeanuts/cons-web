@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
 
-export const AboutUs = () => {
+export const AboutUsComponent = () => {
     return (
         <>
             <div className="grid grid-cols-1 md:grid-cols-10 margin spacing">

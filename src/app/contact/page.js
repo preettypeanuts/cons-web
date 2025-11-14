@@ -1,3 +1,4 @@
+import { ContactUs } from "@/components/contact-form";
 import { ReBanner } from "@/components/re-banner";
 import { FaPhone } from "react-icons/fa6";
 
@@ -14,6 +15,8 @@ export default function Contact() {
                 imageAlt="Contact Us Banner"
                 onButtonClick={null}
             />
+            <ContactUs />
+
         </>
     )
 }

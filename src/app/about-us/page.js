@@ -1,4 +1,8 @@
+import { AboutUsComponent } from "@/components/about-us-component";
+import { FaqsAccordion } from "@/components/faqs-accordion";
 import { ReBanner } from "@/components/re-banner";
+import { VisionMission } from "@/components/vision-mission";
+import { WhyUs } from "@/components/why-us";
 import { FaCompass } from "react-icons/fa6";
 
 export default function AboutUs() {
@@ -14,6 +18,10 @@ export default function AboutUs() {
                 imageAlt="Contact Us Banner"
                 onButtonClick={null}
             />
+            <AboutUsComponent />
+            <VisionMission />
+            <WhyUs />
+            <FaqsAccordion />
         </>
     )
 }

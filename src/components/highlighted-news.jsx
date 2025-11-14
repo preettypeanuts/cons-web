@@ -3,7 +3,7 @@ import { MdArrowOutward } from "react-icons/md";
 export const HighligtedNews = ({ data }) => {
     return (
         <>
-            <section className="margin -mt-20 grid grid-cols-2 gap-10">
+            <section className="cursor-pointer margin -mt-20 grid grid-cols-1 md:grid-cols-2 gap-10">
                 <div className="group rounded-lg overflow-hidden min-h-[55lvh] max-h-[55lvh] h-[55lvh]">
                     <Image
                         width={500}
@@ -13,7 +13,7 @@ export const HighligtedNews = ({ data }) => {
                         alt={data.title}
                     />
                 </div>
-                <div className="flex flex-col items-start justify-center gap-5 hover:scale-102 duration-300 group">
+                <div className="flex flex-col items-start justify-center gap-5 group">
                     <p className="text-xs uppercase font-medium opacity-70">
                         {data.category}
                     </p>

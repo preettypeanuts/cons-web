@@ -341,7 +341,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -355,7 +355,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -369,7 +369,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -383,7 +383,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -397,7 +397,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
 
@@ -413,7 +413,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -427,7 +427,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -441,7 +441,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -455,7 +455,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
 
@@ -471,7 +471,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -485,7 +485,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -499,7 +499,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -513,7 +513,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -527,7 +527,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
 
@@ -543,7 +543,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -557,7 +557,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -571,7 +571,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
 
@@ -587,7 +587,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -601,7 +601,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
 
@@ -617,7 +617,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   },
   {
@@ -631,7 +631,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://www.ganeshaec.co.id/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdzrh2ogbn%2Fimage%2Fupload%2Fv1759919688%2FGAB%2520Products%2FTerramesh_Green_Terramesh__60.webp&w=1920&q=75",
+    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "detailType": ""
   }
 ]
