@@ -132,7 +132,15 @@ export const Navbar = ({ children }) => {
 
                     <ThemeSwitch />
 
-                    <HiMagnifyingGlass className="text-lg z-100" />
+                    <MegaMenu
+                        id={"search"}
+                        icon={<HiMagnifyingGlass className="text-lg z-100" />}
+                        expandedId={expandedId}
+                        setExpandedId={setExpandedId}
+                        href={"/products"}
+                    >
+                        {/* <MegaServices /> */}
+                    </MegaMenu>
                 </div>
 
                 <div
@@ -148,8 +156,8 @@ export const Navbar = ({ children }) => {
             </nav>
 
             {/* Background Layer & Effect */}
-            <div className={`hidden md:block fixed top-0 z-80 ${expandedId ? "opacity-100 backdrop-blur-xl md:backdrop-blur-[5px] w-screen h-screen grayscale" : "opacity-0"} noBar bg-lightColor/30 dark:bg-darkColor/20 transition-opacity duration-300`} />
-            <div className={`${expandedId ? "md:scale-103" : "md:scale-100"} noBar overflow-hidden md:transform md:origin-top md:transition-transform md:duration-500 md:ease-in-out`}>
+            <div className={`hidden md:block fixed top-0 z-80 ${expandedId ? "opacity-100 backdrop-blur-xl md:backdrop-blur-[5px] w-screen h-screen" : "opacity-0"} noBar bg-lightColor/30 dark:bg-darkColor/20 transition-opacity duration-300`} />
+            <div className={`${expandedId ? "md:scale-101" : "md:scale-100"} noBar overflow-hidden md:transform md:origin-top md:transition-transform md:duration-500 md:ease-in-out`}>
                 {children}
             </div>
         </>

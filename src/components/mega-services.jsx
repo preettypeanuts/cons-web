@@ -1,6 +1,7 @@
 import { slugify } from "@/lib/slugify"
 import { productsData } from "@/system"
 import { ChevronRight, Circle, Dot, Flower2 } from "lucide-react"
+import Image from "next/image"
 import Link from "next/link"
 
 export const MegaServices = () => {
@@ -8,16 +9,16 @@ export const MegaServices = () => {
 
     return (
         <>
-            <div className="grid grid-cols-10">
+            <div className="grid grid-cols-10 gap-2">
                 <section className="col-span-8 space-y-3">
                     <div className="uppercase text-xs font-bold opacity-50">
                         Products
                     </div>
-                    <div className="grid grid-cols-4 pb-10">
+                    <div className="grid grid-cols-4 pb-10 gap-2">
                         {divisions.map((division, idx) => (
                             <Link
                                 href={`/${slugify(division)}`}
-                                className="bg-white dark:bg-black border p-5 rounded-lg duration-300 hover:invert group"
+                                className={`dark:bg-black bg-white border p-5  duration-300 hover:invert group rounded-lg`}
                                 key={division}
                             >
                                 <div className="flex items-start justify-between mb-10 gap-20">
@@ -45,8 +46,16 @@ export const MegaServices = () => {
                         ))}
                     </div>
                 </section>
-                <section className="col-span-2">
-
+                <section className="col-span-2 space-y-3">
+                    <div className="uppercase text-xs font-bold opacity-50">
+                        Related
+                    </div>
+                    <Image
+                        width={500}
+                        height={500}
+                        className="rounded-lg"
+                        src="https://images.unsplash.com/photo-1637590109303-eca77d3f044b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=900"
+                        alt="nav img" />
                 </section>
             </div>
         </>
