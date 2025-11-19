@@ -4,6 +4,7 @@ import { ThemeProvider } from "next-themes";
 import { Navbar } from "@/components/navbar";
 import { CustomScrollbar } from "@/components/custom-scrollbar";
 import { Footer } from "@/components/footer";
+import { MobileNavigation } from "@/components/mobile-navigation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
             {children}
             <Footer />
           </Navbar>
+          <MobileNavigation />
           <CustomScrollbar />
         </ThemeProvider>
       </body>

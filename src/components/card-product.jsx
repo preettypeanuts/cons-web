@@ -99,7 +99,7 @@ export const CardProduct = ({
             )}
             {mode === "grid" && (
                 <section>
-                    <div className="grid grid-cols-4 gap-6 margin spacing">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-6 margin spacing">
                         {data.map((el, idx) => (
                             <Link
                                 key={idx}

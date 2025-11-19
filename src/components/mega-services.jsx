@@ -17,7 +17,7 @@ export const MegaServices = () => {
                     <div className="grid grid-cols-4 pb-10 gap-2">
                         {divisions.map((division, idx) => (
                             <Link
-                                href={`/${slugify(division)}`}
+                                href={`/products/${slugify(division)}`}
                                 className={`dark:bg-black bg-white border p-5  duration-300 hover:invert group rounded-lg`}
                                 key={division}
                             >

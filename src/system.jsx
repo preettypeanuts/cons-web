@@ -1,5 +1,7 @@
-import { HiArchive, HiHome, HiLightBulb, HiShieldCheck } from "react-icons/hi";
+import { HiArchive, HiHome, HiLightBulb, HiShieldCheck, HiDotsHorizontal, HiNewspaper, HiX } from "react-icons/hi";
 import { FaHandshakeSimple } from "react-icons/fa6";
+import { HiBuildingLibrary, HiCube, HiPhone } from "react-icons/hi2";
+import { MdConstruction } from "react-icons/md";
 
 export const NavbarItems = [
   {
@@ -7,42 +9,48 @@ export const NavbarItems = [
     href: "/",
     icon: <HiHome />,
     isMegaMenu: false,
-    isHome: true
+    isHome: true,
+    mobileNav: true
   },
   {
     label: "Projects",
     href: "/projects",
-    icon: <HiHome />,
+    icon: <HiCube />,
     isMegaMenu: true,
-    isHome: false
+    isHome: false,
+    mobileNav: true
   },
   {
     label: "Products",
     href: "/products",
-    icon: <HiHome />,
+    icon: <MdConstruction />,
     isMegaMenu: true,
-    isHome: false
+    isHome: false,
+    mobileNav: true
   },
   {
     label: "News",
     href: "/news",
-    icon: <HiHome />,
+    icon: <HiNewspaper />,
     isMegaMenu: true,
-    isHome: false
+    isHome: false,
+    mobileNav: true
   },
   {
     label: "About",
     href: "/about-us",
-    icon: <HiHome />,
+    icon: <HiBuildingLibrary />,
     isMegaMenu: false,
-    isHome: false
+    isHome: false,
+    mobileNav: false
   },
   {
     label: "Contact",
     href: "/contact",
-    icon: <HiHome />,
+    icon: <HiPhone />,
     isMegaMenu: false,
-    isHome: false
+    isHome: false,
+    mobileNav: false
   },
 ];
 

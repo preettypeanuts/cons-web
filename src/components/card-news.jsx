@@ -8,7 +8,9 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export const CardNews = ({
     data = [],
-    mode = "grid"
+    mode = "grid",
+    useSpacing = true,
+    useMargin = true,
 }) => {
     const [carouselRef, setCarouselRef] = useState(null);
     const [isAtStart, setIsAtStart] = useState(true);
@@ -24,7 +26,7 @@ export const CardNews = ({
     return (
         <>
             {mode === "carousel" && (
-                <section className="spacing">
+                <section className={`${useSpacing === true && "spacing"}`}>
                     <div className="flex items-center justify-between margin">
                         <div>
                             <h1 className="uppercase font-light text-xs">
@@ -99,7 +101,7 @@ export const CardNews = ({
             )}
 
             {mode === "grid" && (
-                <section className="margin spacing">
+                <section className={`${useSpacing === true && "spacing"} ${useMargin === true && "margin"}`}>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                         {data.map((el, idx) => (
                             <Link
