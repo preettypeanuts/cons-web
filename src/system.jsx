@@ -349,7 +349,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613237/GAB/Quicklime_14_11zon_w9xqrs.webp",
     "detailType": ""
   },
   {
@@ -363,7 +363,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613233/GAB/Calcium_hydroxide_5_11zon_nk3mrs.webp",
     "detailType": ""
   },
   {
@@ -377,7 +377,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613233/GAB/Calcium_carbonate_4_11zon_l2llse.webp",
     "detailType": ""
   },
   {
@@ -391,7 +391,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613234/GAB/Limestone_9_11zon_ic70zf.webp",
     "detailType": ""
   },
   {
@@ -405,7 +405,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613234/GAB/Calbreed_3_11zon_gr2ngg.webp",
     "detailType": ""
   },
 
@@ -421,7 +421,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613238/GAB/Silica_sand_16_11zon_n2dhrk.webp",
     "detailType": ""
   },
   {
@@ -435,7 +435,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613238/GAB/Silica_gravel_15_11zon_evphbt.webp",
     "detailType": ""
   },
   {
@@ -449,23 +449,23 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613239/GAB/Silica_stones_17_11zon_jwhzs4.webp",
     "detailType": ""
   },
-  {
-    "id": 9,
-    "division": "Silica Division",
-    "productName": "Environmental Products",
-    "partOf": "",
-    "productCategory": "",
-    "descriptions": "Produk pengendali debu dan erosi untuk penambangan dan transportasi.",
-    "keywords": "",
-    "isPublished": true,
-    "isPriority": false,
-    "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "detailType": ""
-  },
+  // {
+  //   "id": 9,
+  //   "division": "Silica Division",
+  //   "productName": "Environmental Products",
+  //   "partOf": "",
+  //   "productCategory": "",
+  //   "descriptions": "Produk pengendali debu dan erosi untuk penambangan dan transportasi.",
+  //   "keywords": "",
+  //   "isPublished": true,
+  //   "isPriority": false,
+  //   "price": "",
+  //   "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //   "detailType": ""
+  // },
 
   /* Zeolite & Bentonite Division */
   {
@@ -479,7 +479,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613241/GAB/Zeolite_19_11zon_fupuig.webp",
     "detailType": ""
   },
   {
@@ -493,7 +493,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613233/GAB/Calcium_hydroxide_5_11zon_nk3mrs.webp",
     "detailType": ""
   },
   {
@@ -507,7 +507,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613233/GAB/Clinoptilolite_6_11zon_xsjeqg.webp",
     "detailType": ""
   },
   {
@@ -521,23 +521,23 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613236/GAB/Mordenite_13_11zon_tuvtbz.webp",
     "detailType": ""
   },
-  {
-    "id": 14,
-    "division": "Zeolite & Bentonite Division",
-    "productName": "Environmental Products",
-    "partOf": "",
-    "productCategory": "",
-    "descriptions": "Produk untuk pengolahan air.",
-    "keywords": "",
-    "isPublished": true,
-    "isPriority": false,
-    "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "detailType": ""
-  },
+  // {
+  //   "id": 14,
+  //   "division": "Zeolite & Bentonite Division",
+  //   "productName": "Environmental Products",
+  //   "partOf": "",
+  //   "productCategory": "",
+  //   "descriptions": "Produk untuk pengolahan air.",
+  //   "keywords": "",
+  //   "isPublished": true,
+  //   "isPriority": false,
+  //   "price": "",
+  //   "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //   "detailType": ""
+  // },
 
   /* Manganese Division */
   {
@@ -551,7 +551,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613235/GAB/Manganese_greensand_10_11zon_gxg8df.webp",
     "detailType": ""
   },
   {
@@ -565,7 +565,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613236/GAB/Mordenite_13_11zon_tuvtbz.webp",
     "detailType": ""
   },
   {
@@ -579,7 +579,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613235/GAB/Manganese_sand_11_11zon_d8vwdg.webp",
     "detailType": ""
   },
 
@@ -595,7 +595,7 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613239/GAB/White_clay_18_11zon_ah8oh8.webp",
     "detailType": ""
   },
   {
@@ -609,44 +609,45 @@ export const productsData = [
     "isPublished": true,
     "isPriority": false,
     "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613233/GAB/Brown_Clay_2_11zon_xfyqme.webp",
     "detailType": ""
   },
 
   /* Civil Engineering Division */
-  {
-    "id": 20,
-    "division": "Civil Engineering Products",
-    "productName": "Ground Improvement Materials (Green Lime LS & LC-E)",
-    "partOf": "",
-    "productCategory": "",
-    "descriptions": "Agen stabilisasi tanah berbasis kapur untuk lumpur, tanah lunak, dan tanah campuran.",
-    "keywords": "",
-    "isPublished": true,
-    "isPriority": false,
-    "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "detailType": ""
-  },
-  {
-    "id": 21,
-    "division": "Civil Engineering Products",
-    "productName": "Environmental Products",
-    "partOf": "",
-    "productCategory": "",
-    "descriptions": "Stabilisasi tanah netral (NP Series), agen rendah debu (LG), dan penginsolubilisasi logam berat (MP Series, Super MAG).",
-    "keywords": "",
-    "isPublished": true,
-    "isPriority": false,
-    "price": "",
-    "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "detailType": ""
-  }
+  // {
+  //   "id": 20,
+  //   "division": "Civil Engineering Products",
+  //   "productName": "Ground Improvement Materials (Green Lime LS & LC-E)",
+  //   "partOf": "",
+  //   "productCategory": "",
+  //   "descriptions": "Agen stabilisasi tanah berbasis kapur untuk lumpur, tanah lunak, dan tanah campuran.",
+  //   "keywords": "",
+  //   "isPublished": true,
+  //   "isPriority": false,
+  //   "price": "",
+  //   "imageUrl": "https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //   "detailType": ""
+  // },
+  // {
+  //   "id": 21,
+  //   "division": "Civil Engineering Products",
+  //   "productName": "Environmental Products",
+  //   "partOf": "",
+  //   "productCategory": "",
+  //   "descriptions": "Stabilisasi tanah netral (NP Series), agen rendah debu (LG), dan penginsolubilisasi logam berat (MP Series, Super MAG).",
+  //   "keywords": "",
+  //   "isPublished": true,
+  //   "isPriority": false,
+  //   "price": "",
+  //   "imageUrl": "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763613234/GAB/Dust_Control_Product_7_11zon_jymffn.webp",
+  //   "detailType": ""
+  // }
 ]
 
 export const newsData = [
   {
     id: 1,
+    highlight: false,
     title: "Transforming Construction with Sustainable Materials",
     slug: "transforming-construction-with-sustainable-materials",
     excerpt:
@@ -688,6 +689,7 @@ export const newsData = [
 
   {
     id: 2,
+    highlight: false,
     title: "How Lime Products Improve Soil Stabilization",
     slug: "how-lime-products-improve-soil-stabilization",
     excerpt:
@@ -737,6 +739,7 @@ export const newsData = [
 
   {
     id: 3,
+    highlight: false,
     title: "The Role of Silica in Modern Manufacturing",
     slug: "the-role-of-silica-in-modern-manufacturing",
     excerpt:
@@ -779,6 +782,7 @@ export const newsData = [
 
   {
     id: 4,
+    highlight: true,
     title: "Zeolite & Bentonite: The Natural Solution for Water Treatment",
     slug: "zeolite-bentonite-natural-solution-for-water-treatment",
     excerpt:
@@ -820,6 +824,7 @@ export const newsData = [
 
   {
     id: 5,
+    highlight: false,
     title: "Understanding Manganese for Industrial Applications",
     slug: "understanding-manganese-for-industrial-applications",
     excerpt:
@@ -860,7 +865,7 @@ export const newsData = [
     date: "2025-04-01",
     image:
       "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80"
-  }
+  },
 ];
 
 

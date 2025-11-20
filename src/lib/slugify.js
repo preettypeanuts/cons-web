@@ -7,6 +7,27 @@ export function slugify(text) {
     .replace(/-+$/, '');            // Trim - from end of text
 }
 
+export function plusfy(text) {
+  let formatted = text.toString();
+
+  // Encode karakter khusus terlebih dahulu
+  formatted = formatted.replace(/&/g, '%26');
+
+  // Capitalize setiap kata
+  formatted = formatted
+    .toLowerCase()
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+
+  return formatted
+    .replace(/\s+/g, '+')        // spasi → +
+    .replace(/[^\w+%]/g, '')     // izinkan huruf, angka, _, +, dan %
+    .replace(/\++/g, '+')        // rapikan multiple +
+    .replace(/^\+/, '')          // trim + di awal
+    .replace(/\+$/, '');         // trim + di akhir
+}
+
+
+
 export function unslugify(slug) {
   return slug
     .replace(/-/g, ' ') // Ganti dash dengan spasi
