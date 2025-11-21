@@ -107,7 +107,9 @@ export const Navbar = ({ children }) => {
                         setExpandedId={setExpandedId}
                         href={"/products"}
                     >
-                        <MegaServices />
+                        <MegaServices
+                            expandedId={expandedId}
+                        />
                     </MegaMenu>
 
                     <PageLinks

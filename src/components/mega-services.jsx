@@ -3,13 +3,28 @@ import { plusfy, slugify } from "@/lib/slugify"
 import { productsData } from "@/system"
 import Image from "next/image"
 import Link from "next/link"
+import { useState, useEffect } from "react"
 
-export const MegaServices = () => {
+export const MegaServices = ({ expandedId }) => {
     const divisions = [...new Set(productsData.map(item => item.division))]
 
-    // Get random product dengan image
-    const productsWithImages = productsData.filter(item => item.imageUrl || item.imageUrl?.length > 0)
-    const randomProduct = productsWithImages[Math.floor(Math.random() * productsWithImages.length)]
+    // State untuk random product
+    const [randomProduct, setRandomProduct] = useState(null)
+
+    // Get random product setiap kali menu dibuka
+    useEffect(() => {
+        // Hanya random kalau menu products sedang terbuka
+        if (expandedId === 'products') {
+            const productsWithImages = productsData.filter(
+                item => item.imageUrl || item.imageUrl?.length > 0
+            )
+            
+            if (productsWithImages.length > 0) {
+                const random = productsWithImages[Math.floor(Math.random() * productsWithImages.length)]
+                setRandomProduct(random)
+            }
+        }
+    }, [expandedId]) // Re-run setiap expandedId berubah
     
     // Get image URL - bisa dari field image atau images array
     const getProductImage = (product) => {
@@ -21,7 +36,7 @@ export const MegaServices = () => {
         return "/placeholder-product.jpg" // Fallback
     }
 
-    const productImage = getProductImage(randomProduct)
+    const productImage = randomProduct ? getProductImage(randomProduct) : "/placeholder-product.jpg"
 
     return (
         <>
@@ -68,6 +83,7 @@ export const MegaServices = () => {
                         Related
                     </div>
                     
+                    {/* Tampilkan random product atau placeholder */}
                     {randomProduct ? (
                         <Link
                             href={`/products/${slugify(randomProduct.division)}/${slugify(randomProduct.productName)}`}
@@ -81,7 +97,7 @@ export const MegaServices = () => {
                                     src={productImage}
                                     alt={randomProduct.productName}
                                 />
-                                <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                             </div>
                             
                             <div className="mt-3 space-y-1">
@@ -94,13 +110,13 @@ export const MegaServices = () => {
                             </div>
                         </Link>
                     ) : (
-                        <Image
-                            width={500}
-                            height={500}
-                            className="rounded-lg"
-                            src="/placeholder-product.jpg"
-                            alt="Product placeholder"
-                        />
+                        <div className="animate-pulse">
+                            <div className="bg-gray-200 dark:bg-gray-700 rounded-lg aspect-square" />
+                            <div className="mt-3 space-y-2">
+                                <div className="h-3 bg-gray-200 dark:bg-gray-700 rounded w-1/2" />
+                                <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-3/4" />
+                            </div>
+                        </div>
                     )}
                 </section>
             </div>
