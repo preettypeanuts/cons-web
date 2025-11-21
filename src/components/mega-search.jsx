@@ -207,7 +207,7 @@ export const MegaSearch = ({ isOpen, onClose, expandedId, setExpandedId }) => {
                             value={query}
                             onChange={(e) => setQuery(e.target.value)}
                             placeholder="Cari produk, proyek, berita, atau galeri..."
-                            className="w-full pl-12 pr-12 py-4 text-lg bg-secondary/50 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500"
+                            className="w-full pl-12 pr-12 py-2 lg:py-4 text-lg bg-secondary/50 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500"
                         />
                         {isSearching && (
                             <Loader2 className="absolute right-12 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground animate-spin" />
@@ -236,7 +236,7 @@ export const MegaSearch = ({ isOpen, onClose, expandedId, setExpandedId }) => {
 
                 {/* Tabs */}
                 {query && totalResults > 0 && (
-                    <div className="py-3 border-b">
+                    <div className="py-5 md:py-3 border-b carousel w-full h-fit min-h-20 md:min-h-15">
                         <div className="flex gap-2 min-w-max">
                             <TabButton
                                 active={activeTab === "all"}

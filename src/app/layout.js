@@ -6,6 +6,7 @@ import { CustomScrollbar } from "@/components/custom-scrollbar";
 import { Footer } from "@/components/footer";
 import { MobileNavigation } from "@/components/mobile-navigation";
 import { Analytics } from "@vercel/analytics/next"
+import { FloatingButtons } from "@/components/flating-buttons";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
           </Navbar>
           <MobileNavigation />
           <CustomScrollbar />
+          <FloatingButtons/>
         </ThemeProvider>
         <Analytics />
       </body>
