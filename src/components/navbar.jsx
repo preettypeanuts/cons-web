@@ -77,14 +77,16 @@ export const Navbar = ({ children }) => {
 
                 <div className={`flex items-center justify-between gap-15 px-0 py-2 w-full duration-300 ease-in-out`}>
 
-                    <div className="z-100 text-lg max-w-10 max-h-5 overflow-hidden flex items-center justify-center w-full">
+                    <Link
+                        href={'/'}
+                        className="z-100 text-lg max-w-10 max-h-5 overflow-hidden flex items-center justify-center w-full">
                         <Image
                             width={50}
                             height={50}
                             src="/icon.png"
-                            className={`${isScrolled && "grayscale"} w-12 h-12 object-cover`}
+                            className={`${isScrolled && ""} w-12 h-12 object-cover`}
                             alt="Logo" />
-                    </div>
+                    </Link>
 
                     <PageLinks
                         href={"/"}
