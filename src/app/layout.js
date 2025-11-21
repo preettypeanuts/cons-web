@@ -28,16 +28,15 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Analytics>
-          <ThemeProvider enableSystem attribute={'class'}>
-            <Navbar>
-              {children}
-              <Footer />
-            </Navbar>
-            <MobileNavigation />
-            <CustomScrollbar />
-          </ThemeProvider>
-        </Analytics>
+        <ThemeProvider enableSystem attribute={'class'}>
+          <Navbar>
+            {children}
+            <Footer />
+          </Navbar>
+          <MobileNavigation />
+          <CustomScrollbar />
+        </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
