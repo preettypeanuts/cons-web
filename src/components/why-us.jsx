@@ -1,5 +1,4 @@
 import { whyUs } from "@/system"
-import Image from "next/image"
 
 export const WhyUs = () => {
     return (

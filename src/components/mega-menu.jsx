@@ -63,7 +63,7 @@ export const MegaMenu = ({
                     onMouseEnter={() => setExpandedId(id)}
                     className={`fixed backdrop-blur-xl top-0 left-0 w-full bg-white/85 dark:bg-darkColor/85 transition-all duration-450 ease-[cubic-bezier(0.25, 0.1, 0.25, 1)] overflow-hidden border-b border-b-neutral-600/20 dark:border-neutral-300/20
                              ${isExpanded
-                            ? 'pointer-events-auto opacity-100 translate-y-0 max-h-[80vh]'
+                            ? 'pointer-events-auto opacity-100 translate-y-0 max-h-[90vh]'
                             : 'pointer-events-none opacity-0 -translate-y-5 max-h-0'}`}
                     style={{
                         minHeight: isExpanded ? '30vh' : '0',

@@ -8,6 +8,7 @@ import { HiMagnifyingGlass } from "react-icons/hi2";
 import { IoArrowUp } from "react-icons/io5";
 import { MegaMenu } from "./mega-menu";
 import { MegaServices } from "./mega-services";
+import { MegaSearch } from "./mega-search";
 
 const PageLinks = ({ href, children, isHome = false }) => {
     const path = usePathname();
@@ -139,7 +140,10 @@ export const Navbar = ({ children }) => {
                         setExpandedId={setExpandedId}
                         href={"/products"}
                     >
-                        {/* <MegaServices /> */}
+                        <MegaSearch
+                            expandedId={expandedId}
+                            setExpandedId={setExpandedId}
+                        />
                     </MegaMenu>
                 </div>
 

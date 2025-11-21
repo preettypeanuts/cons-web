@@ -1,3 +1,4 @@
+"use client"
 import { plusfy, slugify } from "@/lib/slugify"
 import { productsData } from "@/system"
 import Image from "next/image"
