@@ -7,7 +7,6 @@ import {
   formatImagesData,
   groupProductData,
   groupProductsWithVariants,
-  getProductWithVariants,
 } from "@/lib/productHelpers";
 
 export async function GET(request) {
