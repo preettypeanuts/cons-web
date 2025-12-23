@@ -3,9 +3,9 @@ import { CardProjects } from "@/components/card-projects";
 import { GalleryImage } from "@/components/gallery-image";
 import { ReBanner } from "@/components/re-banner";
 import { SearchBar } from "@/components/search-bar";
-import { FilterSelect } from "@/components/filter-select";
 import { ReusablePagination } from "@/components/reusable-pagination";
 import { galleryData, projectsData } from "@/system";
+import { FilterSelect } from "@/components/filter-select";
 
 // Generate dynamic metadata
 export async function generateMetadata({ searchParams }) {

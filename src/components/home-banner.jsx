@@ -98,12 +98,14 @@ export const HomeBanner = () => {
                         <p className="text-base leading-tight tracking-wide">
                             Where Innovation Meets Responsibility — Shaping a Better Tomorrow <br /> for All.
                         </p>
+                        <a href="#explore">
                         <Button
                             size={"sm"}
                             className="text-xs sm:text-sm"
-                        >
+                            >
                             <BsSoundwave /> Get Connected
                         </Button>
+                            </a>
                     </motion.div>
                 </motion.div>
 

@@ -1,11 +1,11 @@
 // app/news/page.jsx
 import { CardNews } from "@/components/card-news";
-import { FilterSelect } from "@/components/filter-select";
 import { ReBanner } from "@/components/re-banner";
 import { SearchBar } from "@/components/search-bar";
 import { ReusablePagination } from "@/components/reusable-pagination";
 import { newsData } from "@/system";
 import { HighlightedNews } from "@/components/highlighted-news";
+import { FilterSelect } from "@/components/filter-select";
 
 // Helper function untuk format category name
 const formatCategoryName = (category) => {
@@ -296,13 +296,13 @@ export default async function News({ searchParams }) {
                         showClearAllButton={true}
                         aria-label="Cari artikel berita"
                     />
-                    <FilterSelect
+                    {/* <FilterSelect
                         placeholder="Filter Kategori"
                         defaultValue={category}
                         items={categoryItems}
                         className="w-[200px]"
                         aria-label="Filter berita berdasarkan kategori"
-                    />
+                    /> */}
                 </div>
 
                 {paginatedData.length > 0 ? (

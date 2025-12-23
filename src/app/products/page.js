@@ -1,9 +1,66 @@
 import { CardProduct } from "@/components/card-product";
 import { ReBanner } from "@/components/re-banner";
 import { SearchBar } from "@/components/search-bar";
-import { FilterSelect } from "@/components/filter-select";
+import { DivisionChips } from "@/components/division-chips";
 import { ReusablePagination } from "@/components/reusable-pagination";
-import { productsData } from "@/system";
+import { FilterSelect } from "@/components/filter-select";
+import { ClientHomeProducts } from "@/components/client-home-products";
+
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+
+// Fungsi untuk fetch products dari API
+async function getProducts({
+    search = '',
+    division = '',
+    page = 1,
+    limit = 12,
+    sortBy = 'id',
+    order = 'asc'
+}) {
+    const params = new URLSearchParams();
+
+    params.append('published', 'true');
+    params.append('page', page.toString());
+    params.append('limit', limit.toString());
+    params.append('sortBy', sortBy);
+    params.append('order', order);
+
+    if (search) params.append('search', search);
+    if (division && division !== 'all') params.append('division', division);
+
+    try {
+        const res = await fetch(`${BASE_URL}/api/products?${params}`, {
+            cache: 'no-store',
+        });
+
+        if (!res.ok) {
+            throw new Error('Failed to fetch products');
+        }
+
+        return res.json();
+    } catch (error) {
+        console.error('Error fetching products:', error);
+        return { success: false, data: [], pagination: null };
+    }
+}
+
+// Fungsi untuk fetch products grouped by division
+async function getProductsByDivision() {
+    try {
+        const res = await fetch(`${BASE_URL}/api/products/division?published=true`, {
+            cache: 'no-store',
+        });
+
+        if (!res.ok) {
+            return { success: false, data: [] };
+        }
+
+        return res.json();
+    } catch (error) {
+        console.error('Error fetching divisions:', error);
+        return { success: false, data: [] };
+    }
+}
 
 // Generate dynamic metadata
 export async function generateMetadata({ searchParams }) {
@@ -12,15 +69,24 @@ export async function generateMetadata({ searchParams }) {
     const q = params?.q || "";
     const currentPage = parseInt(params?.page) || 1;
 
-    // Get statistics
-    const totalProducts = productsData.filter(p => p.isPublished).length;
-    const uniqueDivisions = [...new Set(productsData.filter(p => p.isPublished).map(item => item.division))];
+    // Fetch divisions untuk metadata
+    const divisionsResponse = await getProductsByDivision();
+    const divisionsData = divisionsResponse.data || [];
+    const uniqueDivisions = divisionsData.map(d => d.division) || [];
+
+    // Fetch total products
+    const productsResponse = await getProducts({
+        search: q,
+        division,
+        page: 1,
+        limit: 1
+    });
+    const totalProducts = productsResponse.pagination?.total || 0;
 
     // Build dynamic title
     let title = "Produk Mineral Industri";
     if (division && division !== "all") {
-        const divisionProducts = productsData.filter(p => p.division === division && p.isPublished);
-        title = `${division} - ${divisionProducts.length} Produk`;
+        title = `${division} - Produk`;
     }
     if (q) {
         title = `Hasil Pencarian: ${q}`;
@@ -33,22 +99,18 @@ export async function generateMetadata({ searchParams }) {
     // Build dynamic description
     let description = `Jelajahi ${totalProducts} produk mineral berkualitas tinggi dari PT GAB DIG JAYA. `;
     if (division && division !== "all") {
-        const divisionProducts = productsData.filter(p => p.division === division && p.isPublished);
-        const productNames = divisionProducts.slice(0, 3).map(p => p.productName).join(", ");
-        description += `${division} meliputi: ${productNames}. `;
+        description += `Produk ${division}. `;
     } else {
         description += `Tersedia dalam ${uniqueDivisions.length} divisi: ${uniqueDivisions.slice(0, 3).join(", ")}. `;
     }
     description += "Solusi lengkap untuk kebutuhan industri Anda.";
 
     // Build keywords
-    const allProductNames = productsData.filter(p => p.isPublished).map(p => p.productName.toLowerCase());
     const keywords = [
         "produk mineral industri",
         "material industri Indonesia",
         "PT GAB DIG JAYA products",
         ...uniqueDivisions.map(div => div.toLowerCase()),
-        ...allProductNames.slice(0, 10),
         "quicklime Indonesia",
         "silica sand",
         "zeolite bentonite",
@@ -59,9 +121,6 @@ export async function generateMetadata({ searchParams }) {
     if (division && division !== "all") {
         keywords.unshift(`${division.toLowerCase()} products`);
     }
-
-    // Get featured product image
-    const featuredProduct = productsData.find(p => p.isPriority && p.isPublished) || productsData.find(p => p.isPublished);
 
     return {
         title,
@@ -75,7 +134,7 @@ export async function generateMetadata({ searchParams }) {
             url: `https://www.gab.co.id/products${division ? `?division=${division}` : ''}${currentPage > 1 ? `${division ? '&' : '?'}page=${currentPage}` : ''}`,
             images: [
                 {
-                    url: featuredProduct?.imageUrl || "https://www.gab.co.id/images/og-products.jpg",
+                    url: "https://www.gab.co.id/images/og-products.jpg",
                     width: 1200,
                     height: 630,
                     alt: "PT GAB DIG JAYA Products",
@@ -87,7 +146,7 @@ export async function generateMetadata({ searchParams }) {
             card: "summary_large_image",
             title,
             description,
-            images: [featuredProduct?.imageUrl || "https://www.gab.co.id/images/twitter-products.jpg"],
+            images: ["https://www.gab.co.id/images/twitter-products.jpg"],
         },
 
         alternates: {
@@ -105,19 +164,16 @@ export async function generateMetadata({ searchParams }) {
 }
 
 // Generate structured data
-const generateProductsStructuredData = (products, division) => {
-    const uniqueDivisions = [...new Set(productsData.filter(p => p.isPublished).map(item => item.division))];
-
+const generateProductsStructuredData = (products, pagination, division, uniqueDivisions) => {
     return {
         "@context": "https://schema.org",
         "@graph": [
-            // CollectionPage Schema
             {
                 "@type": "CollectionPage",
                 "@id": "https://www.gab.co.id/products#collection",
                 url: "https://www.gab.co.id/products",
                 name: division ? `${division} Products` : "All Products",
-                description: `Browse ${products.length} mineral products from PT GAB DIG JAYA`,
+                description: `Browse ${pagination?.total || products.length} mineral products from PT GAB DIG JAYA`,
                 isPartOf: {
                     "@id": "https://www.gab.co.id/#website",
                 },
@@ -125,14 +181,12 @@ const generateProductsStructuredData = (products, division) => {
                     "@id": "https://www.gab.co.id/#organization",
                 },
             },
-
-            // Product Catalog
             {
                 "@type": "ItemList",
                 "@id": "https://www.gab.co.id/products#catalog",
                 name: "PT GAB DIG JAYA Product Catalog",
                 description: "Complete catalog of industrial mineral products",
-                numberOfItems: products.length,
+                numberOfItems: pagination?.total || products.length,
                 itemListElement: products.slice(0, 10).map((product, index) => ({
                     "@type": "ListItem",
                     position: index + 1,
@@ -163,8 +217,6 @@ const generateProductsStructuredData = (products, division) => {
                     },
                 })),
             },
-
-            // BreadcrumbList Schema
             {
                 "@type": "BreadcrumbList",
                 "@id": "https://www.gab.co.id/products#breadcrumb",
@@ -189,32 +241,21 @@ const generateProductsStructuredData = (products, division) => {
                     }] : []),
                 ],
             },
-
-            // Division Categories
             {
                 "@type": "ItemList",
                 "@id": "https://www.gab.co.id/products#divisions",
                 name: "Product Divisions",
                 description: "Industrial mineral product divisions",
                 numberOfItems: uniqueDivisions.length,
-                itemListElement: uniqueDivisions.map((div, index) => {
-                    const divProducts = productsData.filter(p => p.division === div && p.isPublished);
-                    return {
-                        "@type": "ListItem",
-                        position: index + 1,
-                        item: {
-                            "@type": "ProductGroup",
-                            name: div,
-                            description: `${divProducts.length} products in ${div}`,
-                            url: `https://www.gab.co.id/products?division=${div}`,
-                            hasVariant: divProducts.map(p => ({
-                                "@type": "Product",
-                                name: p.productName,
-                                image: p.imageUrl,
-                            })),
-                        },
-                    };
-                }),
+                itemListElement: uniqueDivisions.map((div, index) => ({
+                    "@type": "ListItem",
+                    position: index + 1,
+                    item: {
+                        "@type": "ProductGroup",
+                        name: div,
+                        url: `https://www.gab.co.id/products?division=${encodeURIComponent(div)}`,
+                    },
+                })),
             },
         ],
     };
@@ -222,46 +263,42 @@ const generateProductsStructuredData = (products, division) => {
 
 export default async function Products({ searchParams }) {
     const params = await searchParams;
-    const q = params?.q?.toLowerCase() || "";
+    const q = params?.q || "";
     const division = params?.division || "";
     const currentPage = parseInt(params?.page) || 1;
-    const itemsPerPage = 9;
+    const sortBy = params?.sortBy || "id";
+    const order = params?.order || "asc";
+    const itemsPerPage = 12;
 
-    // Extract unique divisions
-    const uniqueDivisions = [...new Set(productsData.map(item => item.division))];
-
-    // Build division items for FilterSelect
-    const divisionItems = [
-        { label: "All Divisions", value: "all" },
-        ...uniqueDivisions.map(div => ({
-            label: div,
-            value: div
-        }))
-    ];
-
-    // Filter products
-    const filtered = productsData.filter((item) => {
-        if (!item.isPublished) return false;
-
-        const matchesSearch =
-            item.productName.toLowerCase().includes(q) ||
-            item.division.toLowerCase().includes(q) ||
-            (item.descriptions && item.descriptions.toLowerCase().includes(q)) ||
-            (item.productCategory && item.productCategory.toLowerCase().includes(q));
-
-        const matchesDivision = division && division !== "all" ? item.division === division : true;
-
-        return matchesSearch && matchesDivision;
+    // Fetch products dari API
+    const productsResponse = await getProducts({
+        search: q,
+        division,
+        page: currentPage,
+        limit: itemsPerPage,
+        sortBy,
+        order
     });
 
-    // Pagination
-    const totalItems = filtered.length;
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-    const paginatedProducts = filtered.slice(startIndex, endIndex);
+    // Fetch divisions dari API
+    const divisionsResponse = await getProductsByDivision();
+
+    // Extract data
+    const products = productsResponse.data || [];
+    const pagination = productsResponse.pagination || null;
+    const error = productsResponse.success === false ? 'Gagal memuat produk' : null;
+
+    // Extract unique divisions
+    const divisionsData = divisionsResponse.data || [];
+    const uniqueDivisions = divisionsData.map(d => d.division) || [];
 
     // Generate structured data
-    const structuredData = generateProductsStructuredData(filtered, division);
+    const structuredData = generateProductsStructuredData(
+        products,
+        pagination,
+        division,
+        uniqueDivisions
+    );
 
     return (
         <>
@@ -280,9 +317,18 @@ export default async function Products({ searchParams }) {
                 onButtonClick={null}
             />
 
-            <section className="margin space-y-10">
+            <ClientHomeProducts/>
 
-                {/* Search and Filter */}
+            <section className="margin space-y-6">
+
+                {/* Error State */}
+                {error && (
+                    <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-6 text-center">
+                        <p className="text-red-600 dark:text-red-400">{error}</p>
+                    </div>
+                )}
+
+                {/* Search and Sort */}
                 <div className="flex items-center justify-between gap-4 flex-wrap">
                     <SearchBar
                         className="w-full max-w-2xl"
@@ -290,38 +336,41 @@ export default async function Products({ searchParams }) {
                         defaultValue={q}
                         showClearButton={true}
                         showClearAllButton={true}
+                        searchStats={{
+                            totalResults: pagination?.total || 0
+                        }}
                         aria-label="Cari produk mineral"
                     />
-                    <FilterSelect
-                        placeholder="Filter Division"
-                        defaultValue={division}
-                        items={divisionItems}
-                        paramName="division"
-                        className="w-[200px]"
-                        aria-label="Filter produk berdasarkan divisi"
-                    />
+                    {/* <FilterSelect className="w-[180px]" /> */}
                 </div>
 
+                {/* Division Chips */}
+                <DivisionChips 
+                    divisions={uniqueDivisions} 
+                    className="pb-2"
+                />
+
                 {/* Products Grid */}
-                {paginatedProducts.length > 0 ? (
+                {products.length > 0 ? (
                     <>
                         <CardProduct
-                            data={paginatedProducts}
-                            useSpacing={false}
-                            useMargin={false}
+                            data={products}
+                            mode="grid"
                         />
 
-                        <ReusablePagination
-                            totalItems={totalItems}
-                            itemsPerPage={itemsPerPage}
-                            currentPage={currentPage}
-                            minItemsForPagination={itemsPerPage}
-                            showInfo={true}
-                            scrollOnChange={true}
-                            aria-label="Navigasi halaman produk"
-                        />
+                        {pagination && pagination.totalPages > 1 && (
+                            <ReusablePagination
+                                totalItems={pagination.total}
+                                itemsPerPage={itemsPerPage}
+                                currentPage={currentPage}
+                                minItemsForPagination={itemsPerPage}
+                                showInfo={true}
+                                scrollOnChange={true}
+                                aria-label="Navigasi halaman produk"
+                            />
+                        )}
                     </>
-                ) : (
+                ) : !error && (
                     <div className="text-center py-20 space-y-4">
                         <h2 className="text-2xl font-semibold text-muted-foreground">
                             Tidak ada produk ditemukan

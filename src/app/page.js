@@ -2,6 +2,7 @@ import { AboutUsComponent } from "@/components/about-us-component";
 import { CardNews } from "@/components/card-news";
 import { CardProduct } from "@/components/card-product";
 import { CardProjects } from "@/components/card-projects";
+import { ClientHomeProducts } from "@/components/client-home-products";
 import { CTA } from "@/components/cta";
 import { CustomerReviews } from "@/components/customer-ratings";
 import { HomeBanner } from "@/components/home-banner";
@@ -266,7 +267,7 @@ export default function Home() {
           <HomeBanner />
         </section>
 
-        <section aria-label="Tentang PT GAB DIG JAYA">
+        <section id="explore" aria-label="Tentang PT GAB DIG JAYA">
           <AboutUsComponent />
         </section>
 
@@ -279,7 +280,7 @@ export default function Home() {
         </section>
 
         <section aria-label="Produk Mineral dan Material Industri">
-          <CardProduct data={productsData} mode="carousel" />
+          <ClientHomeProducts/>
         </section>
 
         <section aria-label="Berita dan Artikel Industri">

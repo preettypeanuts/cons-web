@@ -9,6 +9,8 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 export const CardProduct = ({
     data,
     mode = "grid",
+    texth1 = "Explore",
+    texth2 = "Our Products"
 }) => {
     const [carouselRef, setCarouselRef] = useState(null);
     const [isAtStart, setIsAtStart] = useState(true);
@@ -28,10 +30,10 @@ export const CardProduct = ({
                     <div className="flex items-center justify-between margin">
                         <div className="">
                             <h1 className="uppercase font-light text-xs">
-                                Explore
+                                {texth1}
                             </h1>
                             <h2 className="text-2xl lg:text-3xl font-light">
-                                Our Products
+                                {texth2}
                             </h2>
                         </div>
                         <div className="flex items-center gap-1">
@@ -59,7 +61,7 @@ export const CardProduct = ({
                         ref={ref => setCarouselRef(ref)}
                         onScroll={updateCarouselPosition}
                         className="carousel w-full gap-3 py-10">
-                        {data.map((el, idx) => (
+                        {data?.map((el, idx) => (
                             <Link
                                 key={idx}
                                 href={`/products/${slugify(el.division)}/${slugify(el.productName)}`}
@@ -100,7 +102,7 @@ export const CardProduct = ({
             {mode === "grid" && (
                 <section>
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-                        {data.map((el, idx) => (
+                        {data?.map((el, idx) => (
                             <Link
                                 key={idx}
                                 href={`/products/${slugify(el.division)}/${slugify(el.productName)}`}

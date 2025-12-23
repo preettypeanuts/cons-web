@@ -10,13 +10,8 @@ export const Footer = () => {
         company: [
             { label: "About Us", href: "/about" },
             { label: "Products", href: "/products" },
-            { label: "Services", href: "/services" },
+            { label: "Projects", href: "/projects" },
             { label: "Contact", href: "/contact" }
-        ],
-        legal: [
-            { label: "Privacy Policy", href: "/privacy" },
-            { label: "Terms of Service", href: "/terms" },
-            { label: "Cookie Policy", href: "/cookies" }
         ],
         social: [
             { icon: <BsLinkedin />, href: "#", label: "LinkedIn" },
@@ -64,24 +59,6 @@ export const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Legal Links */}
-                    <div className="md:col-span-2">
-                        <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 opacity-60">
-                            Legal
-                        </h3>
-                        <ul className="space-y-3">
-                            {footerLinks.legal.map((link, idx) => (
-                                <li key={idx}>
-                                    <Link
-                                        href={link.href}
-                                        className="text-sm opacity-70 hover:opacity-100 duration-200"
-                                    >
-                                        {link.label}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
 
                     {/* Social Media */}
                     <div className="md:col-span-3">

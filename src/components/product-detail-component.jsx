@@ -14,7 +14,7 @@ export const ProductDetailComponent = ({ data }) => {
                     />
                 </div>
                 <div className="space-y-3">
-                    <p className="opacity-70 uppercase text-sm font-medium">
+                    <p className="opacity-70 uppercase text-sm font-mediumx">
                         {data.division}
                     </p>
                     <h1 className="text-5xl font-bold ">
