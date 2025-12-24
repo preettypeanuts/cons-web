@@ -68,7 +68,7 @@ export default function Contact() {
             contactPoint: [
                 {
                     "@type": "ContactPoint",
-                    telephone: "+62-21-xxxx-xxxx",
+                    telephone: "+62 857-7904-7739",
                     contactType: "Customer Service",
                     areaServed: "ID",
                     availableLanguage: ["Indonesian", "English"],
@@ -76,7 +76,7 @@ export default function Contact() {
                 },
                 {
                     "@type": "ContactPoint",
-                    telephone: "+62-21-xxxx-xxxx",
+                    telephone: "+62 857-7904-7739",
                     contactType: "Sales",
                     areaServed: "ID",
                     availableLanguage: ["Indonesian", "English"],
@@ -134,7 +134,7 @@ export default function Contact() {
                 buttonIcon={<FaPhone />}
                 imageSrc="https://images.unsplash.com/photo-1593630987785-98139c5f3cc6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
                 imageAlt="Hubungi PT GAB DIG JAYA - Konsultasi Produk Mineral Industri"
-                onButtonClick={null}
+                href="https://api.whatsapp.com/send/?phone=6285779047739"
             />
 
             <ContactUs />

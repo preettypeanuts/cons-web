@@ -1,23 +1,27 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { BsLinkedin, BsInstagram, BsTwitterX, BsFacebook } from "react-icons/bs"
+import { BsLinkedin, BsInstagram, BsTwitterX, BsFacebook, BsWhatsapp, BsMailbox } from "react-icons/bs"
 
 export const Footer = () => {
     const currentYear = new Date().getFullYear()
 
     const footerLinks = {
         company: [
-            { label: "About Us", href: "/about" },
+            { label: "About Us", href: "/about-us" },
             { label: "Products", href: "/products" },
             { label: "Projects", href: "/projects" },
             { label: "Contact", href: "/contact" }
         ],
+        division: [
+            { label: "Material & Mineral", href: "/products/material-kimia-mineral" },
+            { label: "Instalasi", href: "/products/instalasi" },
+            { label: "Erosion Control", href: "/products/erosion-control" },
+            { label: "Infrastruktur", href: "/products/infrastruktur" }
+        ],
         social: [
-            { icon: <BsLinkedin />, href: "#", label: "LinkedIn" },
-            { icon: <BsInstagram />, href: "#", label: "Instagram" },
-            { icon: <BsTwitterX />, href: "#", label: "Twitter" },
-            { icon: <BsFacebook />, href: "#", label: "Facebook" }
+            { icon: <BsWhatsapp />, href: "https://api.whatsapp.com/send/?phone=6285779047739", label: "Whatsapp" },
+            { icon: <BsMailbox />, href: "mailto:gab.system2025", label: "Gmail" },
         ]
     }
 
@@ -59,11 +63,29 @@ export const Footer = () => {
                         </ul>
                     </div>
 
+                      <div className="md:col-span-2">
+                        <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 opacity-60">
+                            Division
+                        </h3>
+                        <ul className="space-y-3">
+                            {footerLinks.division.map((link, idx) => (
+                                <li key={idx}>
+                                    <Link
+                                        href={link.href}
+                                        className="text-sm opacity-70 hover:opacity-100 duration-200"
+                                    >
+                                        {link.label}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
 
                     {/* Social Media */}
                     <div className="md:col-span-3">
                         <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 opacity-60">
-                            Follow Us
+                            Connect With Us
                         </h3>
                         <div className="flex gap-4">
                             {footerLinks.social.map((social, idx) => (

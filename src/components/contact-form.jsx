@@ -117,7 +117,7 @@ export const ContactUs = () => {
                                     value={formData.phone}
                                     onChange={handleChange}
                                     className="w-full px-0 py-3 bg-transparent border-b border-neutral-300 dark:border-neutral-700 focus:border-orange-400 dark:focus:border-orange-400 outline-none duration-200 text-sm"
-                                    placeholder="+62 812 3456 7890"
+                                    placeholder="+62 812-3456-7890"
                                 />
                             </div>
                         </div>

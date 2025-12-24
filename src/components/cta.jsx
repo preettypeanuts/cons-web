@@ -99,7 +99,7 @@ export const CTA = () => {
                                 <div className="hidden md:block w-1 h-1 rounded-full bg-white/40" />
                                 <div className="flex items-center gap-2">
                                     <BsWhatsapp className="text-base" />
-                                    <span>+62 812 3456 7890</span>
+                                    <span>+62 857-7904-7739</span>
                                 </div>
                             </div>
                         </motion.div>

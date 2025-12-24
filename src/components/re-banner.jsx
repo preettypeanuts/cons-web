@@ -3,6 +3,8 @@ import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
 import { Button } from "./ui/button"
 import { motion } from "framer-motion"
+import { useRouter } from "next/navigation"
+
 
 export const ReBanner = ({
   title,
@@ -13,6 +15,9 @@ export const ReBanner = ({
   imageSrc,
   imageAlt = "Banner Image",
   onButtonClick,
+  href,
+  scrollToId,
+  scrollOffset = 0,
   buttonClassName = "",
   titleClassName = "",
   highlightClassName = "text-mainColor",
@@ -20,6 +25,8 @@ export const ReBanner = ({
 }) => {
   const [isVisible, setIsVisible] = useState(false)
   const ref = useRef(null)
+
+  const router = useRouter()
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -101,6 +108,39 @@ export const ReBanner = ({
     }
   }
 
+  const handleButtonClick = () => {
+    // 1. Navigasi halaman
+    if (href) {
+      router.push(href)
+      return
+    }
+
+    // 2. Scroll ke section
+    if (scrollToId) {
+      const target = document.getElementById(scrollToId)
+      if (!target) return
+
+      const y =
+        target.getBoundingClientRect().top +
+        window.pageYOffset -
+        scrollOffset
+
+      window.scrollTo({
+        top: y,
+        behavior: "smooth",
+      })
+      return
+    }
+
+    // 3. Default scroll down
+    window.scrollBy({
+      top: window.innerHeight * 0.8,
+      behavior: "smooth",
+    })
+  }
+
+
+
   return (
     <section className="margin spacing" ref={ref}>
       <motion.div
@@ -141,11 +181,12 @@ export const ReBanner = ({
             >
               <Button
                 className={`w-fit gap-2 ${buttonClassName}`}
-                onClick={onButtonClick}
+                onClick={handleButtonClick}
               >
                 {buttonIcon}
                 {buttonText}
               </Button>
+
             </motion.div>
           </motion.div>
         </div>

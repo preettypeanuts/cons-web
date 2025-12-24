@@ -128,7 +128,7 @@ const generateStructuredData = () => {
         },
         contactPoint: {
           "@type": "ContactPoint",
-          telephone: "+62-21-xxxx-xxxx",
+          telephone: "+62 857-7904-7739",
           contactType: "Customer Service",
           areaServed: "ID",
           availableLanguage: ["Indonesian", "English"],
