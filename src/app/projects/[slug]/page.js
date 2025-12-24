@@ -24,7 +24,7 @@ export async function generateMetadata({ params }) {
     }
 
     return {
-        title: `${project.title} - ${project.category} | PT GAB DIG JAYA`,
+        title: `${project.title} - ${project.category} | PT GAB MATTIRO FLORESIND`,
         description: project.description,
         keywords: [
             ...project.tags,
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }) {
             project.year.toString(),
             project.client,
             "proyek konstruksi",
-            "PT GAB DIG JAYA projects",
+            "PT GAB MATTIRO FLORESIND projects",
             "infrastruktur Indonesia",
         ],
 
@@ -122,7 +122,7 @@ export default async function ProjectsDetailPage({ params }) {
         creator: {
             "@type": "Organization",
             "@id": "https://www.gab.co.id/#organization",
-            name: "PT GAB DIG JAYA",
+            name: "PT GAB MATTIRO FLORESIND",
             logo: "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763699326/GAB/assets/gab_olxssp.jpg",
         },
         client: {

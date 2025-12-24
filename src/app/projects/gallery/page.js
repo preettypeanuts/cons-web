@@ -3,13 +3,13 @@ import { galleryData } from "@/system";
 
 // SEO Metadata
 export const metadata = {
-    title: "Galeri Proyek - Dokumentasi Konstruksi & Infrastruktur | PT GAB DIG JAYA",
-    description: `Lihat ${galleryData.length} foto dokumentasi proyek konstruksi dan infrastruktur yang telah diselesaikan PT GAB DIG JAYA. Galeri visual berkualitas tinggi dari berbagai proyek gedung, jembatan, jalan, dan instalasi industri di seluruh Indonesia.`,
+    title: "Galeri Proyek - Dokumentasi Konstruksi & Infrastruktur | PT GAB MATTIRO FLORESIND",
+    description: `Lihat ${galleryData.length} foto dokumentasi proyek konstruksi dan infrastruktur yang telah diselesaikan PT GAB MATTIRO FLORESIND. Galeri visual berkualitas tinggi dari berbagai proyek gedung, jembatan, jalan, dan instalasi industri di seluruh Indonesia.`,
     keywords: [
         "galeri proyek konstruksi",
         "foto infrastruktur",
         "dokumentasi proyek",
-        "gallery PT GAB DIG JAYA",
+        "gallery PT GAB MATTIRO FLORESIND",
         "portfolio foto konstruksi",
         "gambar proyek pembangunan",
         ...galleryData.map(item => item.title.toLowerCase()),
@@ -20,7 +20,7 @@ export const metadata = {
 
     openGraph: {
         type: "website",
-        title: "Galeri Proyek - PT GAB DIG JAYA",
+        title: "Galeri Proyek - PT GAB MATTIRO FLORESIND",
         description: `Dokumentasi visual dari ${galleryData.length} proyek konstruksi dan infrastruktur berkualitas tinggi.`,
         url: "https://www.gab.co.id/gallery",
         images: [
@@ -28,7 +28,7 @@ export const metadata = {
                 url: galleryData[0]?.image || "https://www.gab.co.id/images/og-gallery.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Galeri Proyek PT GAB DIG JAYA",
+                alt: "Galeri Proyek PT GAB MATTIRO FLORESIND",
             },
             ...galleryData.slice(1, 4).map(item => ({
                 url: item.image,
@@ -41,7 +41,7 @@ export const metadata = {
 
     twitter: {
         card: "summary_large_image",
-        title: "Galeri Proyek - PT GAB DIG JAYA",
+        title: "Galeri Proyek - PT GAB MATTIRO FLORESIND",
         description: `Dokumentasi visual dari ${galleryData.length} proyek konstruksi dan infrastruktur.`,
         images: [galleryData[0]?.image || "https://www.gab.co.id/images/twitter-gallery.jpg"],
     },
@@ -63,7 +63,7 @@ export default function Gallery() {
         "@context": "https://schema.org",
         "@type": "ImageGallery",
         "@id": "https://www.gab.co.id/gallery#imagegallery",
-        name: "Galeri Proyek PT GAB DIG JAYA",
+        name: "Galeri Proyek PT GAB MATTIRO FLORESIND",
         description: "Dokumentasi foto dari proyek konstruksi dan infrastruktur yang telah diselesaikan",
         url: "https://www.gab.co.id/gallery",
         numberOfItems: galleryData.length,
@@ -78,13 +78,13 @@ export default function Gallery() {
             thumbnailUrl: item.image,
             creator: {
                 "@type": "Organization",
-                name: "PT GAB DIG JAYA",
+                name: "PT GAB MATTIRO FLORESIND",
             },
         })),
         publisher: {
             "@type": "Organization",
             "@id": "https://www.gab.co.id/#organization",
-            name: "PT GAB DIG JAYA",
+            name: "PT GAB MATTIRO FLORESIND",
             logo: {
                 "@type": "ImageObject",
                 url: "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763699326/GAB/assets/gab_olxssp.jpg",
@@ -98,7 +98,7 @@ export default function Gallery() {
         "@type": "CollectionPage",
         "@id": "https://www.gab.co.id/gallery#collection",
         url: "https://www.gab.co.id/gallery",
-        name: "Galeri Proyek PT GAB DIG JAYA",
+        name: "Galeri Proyek PT GAB MATTIRO FLORESIND",
         description: "Koleksi foto dokumentasi proyek konstruksi dan infrastruktur",
         isPartOf: {
             "@id": "https://www.gab.co.id/#website",
@@ -146,7 +146,7 @@ export default function Gallery() {
                 image: item.image,
                 creator: {
                     "@type": "Organization",
-                    name: "PT GAB DIG JAYA",
+                    name: "PT GAB MATTIRO FLORESIND",
                 },
             },
         })),

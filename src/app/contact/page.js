@@ -4,12 +4,12 @@ import { FaPhone } from "react-icons/fa6";
 
 // SEO Metadata
 export const metadata = {
-    title: "Hubungi Kami - PT GAB DIG JAYA | Konsultasi Produk Mineral Industri",
-    description: "Hubungi PT GAB DIG JAYA untuk konsultasi produk mineral industri, penawaran harga, dan informasi lebih lanjut. Alamat: Gedung Fancy Mampang, Jakarta Selatan. Siap melayani kebutuhan industri Anda.",
+    title: "Hubungi Kami - PT GAB MATTIRO FLORESIND | Konsultasi Produk Mineral Industri",
+    description: "Hubungi PT GAB MATTIRO FLORESIND untuk konsultasi produk mineral industri, penawaran harga, dan informasi lebih lanjut. Alamat: Gedung Fancy Mampang, Jakarta Selatan. Siap melayani kebutuhan industri Anda.",
     keywords: [
-        "kontak PT GAB DIG JAYA",
-        "hubungi GAB DIG JAYA",
-        "alamat PT GAB DIG JAYA",
+        "kontak PT GAB MATTIRO FLORESIND",
+        "hubungi GAB MATTIRO FLORESIND",
+        "alamat PT GAB MATTIRO FLORESIND",
         "konsultasi mineral industri",
         "contact mineral supplier",
         "distributor mineral Jakarta",
@@ -19,7 +19,7 @@ export const metadata = {
     ],
 
     openGraph: {
-        title: "Hubungi Kami - PT GAB DIG JAYA",
+        title: "Hubungi Kami - PT GAB MATTIRO FLORESIND",
         description: "Konsultasi produk mineral industri dan dapatkan penawaran terbaik. Hubungi tim kami untuk informasi lebih lanjut.",
         url: "https://www.gab.co.id/contact",
         type: "website",
@@ -28,14 +28,14 @@ export const metadata = {
                 url: "https://images.unsplash.com/photo-1593630987785-98139c5f3cc6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1200",
                 width: 1200,
                 height: 630,
-                alt: "Hubungi PT GAB DIG JAYA",
+                alt: "Hubungi PT GAB MATTIRO FLORESIND",
             },
         ],
     },
 
     twitter: {
         card: "summary_large_image",
-        title: "Hubungi Kami - PT GAB DIG JAYA",
+        title: "Hubungi Kami - PT GAB MATTIRO FLORESIND",
         description: "Konsultasi produk mineral industri dan dapatkan penawaran terbaik.",
         images: ["https://images.unsplash.com/photo-1593630987785-98139c5f3cc6?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1200"],
     },
@@ -57,12 +57,12 @@ export default function Contact() {
         "@type": "ContactPage",
         "@id": "https://www.gab.co.id/contact#contactpage",
         url: "https://www.gab.co.id/contact",
-        name: "Contact PT GAB DIG JAYA",
+        name: "Contact PT GAB MATTIRO FLORESIND",
         description: "Hubungi kami untuk konsultasi produk mineral industri dan informasi lebih lanjut",
         mainEntity: {
             "@type": "Organization",
             "@id": "https://www.gab.co.id/#organization",
-            name: "PT GAB DIG JAYA",
+            name: "PT GAB MATTIRO FLORESIND",
             url: "https://www.gab.co.id",
             logo: "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763699326/GAB/assets/gab_olxssp.jpg",
             contactPoint: [
@@ -133,7 +133,7 @@ export default function Contact() {
                 buttonText="Call Us!"
                 buttonIcon={<FaPhone />}
                 imageSrc="https://images.unsplash.com/photo-1593630987785-98139c5f3cc6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
-                imageAlt="Hubungi PT GAB DIG JAYA - Konsultasi Produk Mineral Industri"
+                imageAlt="Hubungi PT GAB MATTIRO FLORESIND - Konsultasi Produk Mineral Industri"
                 href="https://api.whatsapp.com/send/?phone=6285779047739"
             />
 

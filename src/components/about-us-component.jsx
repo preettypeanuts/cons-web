@@ -18,7 +18,7 @@ export const AboutUsComponent = () => {
                 </div>
                 <div className="md:col-span-8">
                     <p className="text-lg sm:text-2xl md:text-3xl leading-tight tracking-wider font-normal text-justify">
-                        PT. GAB DIG JAYA adalah perusahaan manufaktur dan distributor yang memfokuskan pada material industri: milk lime, limestone, powder lime, calcium carbonate, clay, zeolit, bentonite, pasir kuarsa, silica sand, dan pembenah tanah. Kami berkomitmen menyediakan produk berkualitas tinggi, siap pakai, dan layanan profesional untuk mitra kerja dan pelanggan.
+                        PT. GAB MATTIRO FLORESIND adalah perusahaan manufaktur dan distributor yang memfokuskan pada material industri: milk lime, limestone, powder lime, calcium carbonate, clay, zeolit, bentonite, pasir kuarsa, silica sand, dan pembenah tanah. Kami berkomitmen menyediakan produk berkualitas tinggi, siap pakai, dan layanan profesional untuk mitra kerja dan pelanggan.
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-6 sm:mt-8 md:mt-10 gap-6 sm:gap-8 md:gap-10">
                         {companyStats.map((el, idx) => (

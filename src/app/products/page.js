@@ -94,10 +94,10 @@ export async function generateMetadata({ searchParams }) {
     if (currentPage > 1) {
         title += ` - Halaman ${currentPage}`;
     }
-    title += " | PT GAB DIG JAYA";
+    title += " | PT GAB MATTIRO FLORESIND";
 
     // Build dynamic description
-    let description = `Jelajahi ${totalProducts} produk mineral berkualitas tinggi dari PT GAB DIG JAYA. `;
+    let description = `Jelajahi ${totalProducts} produk mineral berkualitas tinggi dari PT GAB MATTIRO FLORESIND. `;
     if (division && division !== "all") {
         description += `Produk ${division}. `;
     } else {
@@ -109,7 +109,7 @@ export async function generateMetadata({ searchParams }) {
     const keywords = [
         "produk mineral industri",
         "material industri Indonesia",
-        "PT GAB DIG JAYA products",
+        "PT GAB MATTIRO FLORESIND products",
         ...uniqueDivisions.map(div => div.toLowerCase()),
         "quicklime Indonesia",
         "silica sand",
@@ -137,7 +137,7 @@ export async function generateMetadata({ searchParams }) {
                     url: "https://www.gab.co.id/images/og-products.jpg",
                     width: 1200,
                     height: 630,
-                    alt: "PT GAB DIG JAYA Products",
+                    alt: "PT GAB MATTIRO FLORESIND Products",
                 },
             ],
         },
@@ -173,7 +173,7 @@ const generateProductsStructuredData = (products, pagination, division, uniqueDi
                 "@id": "https://www.gab.co.id/products#collection",
                 url: "https://www.gab.co.id/products",
                 name: division ? `${division} Products` : "All Products",
-                description: `Browse ${pagination?.total || products.length} mineral products from PT GAB DIG JAYA`,
+                description: `Browse ${pagination?.total || products.length} mineral products from PT GAB MATTIRO FLORESIND`,
                 isPartOf: {
                     "@id": "https://www.gab.co.id/#website",
                 },
@@ -184,7 +184,7 @@ const generateProductsStructuredData = (products, pagination, division, uniqueDi
             {
                 "@type": "ItemList",
                 "@id": "https://www.gab.co.id/products#catalog",
-                name: "PT GAB DIG JAYA Product Catalog",
+                name: "PT GAB MATTIRO FLORESIND Product Catalog",
                 description: "Complete catalog of industrial mineral products",
                 numberOfItems: pagination?.total || products.length,
                 itemListElement: products.slice(0, 10).map((product, index) => ({
@@ -198,11 +198,11 @@ const generateProductsStructuredData = (products, pagination, division, uniqueDi
                         image: product.imageUrl,
                         brand: {
                             "@type": "Brand",
-                            name: "PT GAB DIG JAYA",
+                            name: "PT GAB MATTIRO FLORESIND",
                         },
                         manufacturer: {
                             "@type": "Organization",
-                            name: "PT GAB DIG JAYA",
+                            name: "PT GAB MATTIRO FLORESIND",
                         },
                         category: product.division,
                         offers: {
@@ -211,7 +211,7 @@ const generateProductsStructuredData = (products, pagination, division, uniqueDi
                             priceCurrency: "IDR",
                             seller: {
                                 "@type": "Organization",
-                                name: "PT GAB DIG JAYA",
+                                name: "PT GAB MATTIRO FLORESIND",
                             },
                         },
                     },
@@ -313,7 +313,7 @@ export default async function Products({ searchParams }) {
                 highlightText="Expertise"
                 description="Crafting Quality Solutions — Built to Support Every Requirement."
                 buttonText="Explore!"
-                imageAlt="PT GAB DIG JAYA Industrial Mineral Products"
+                imageAlt="PT GAB MATTIRO FLORESIND Industrial Mineral Products"
                 onButtonClick={null}
             />
 

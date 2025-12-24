@@ -31,10 +31,10 @@ export async function generateMetadata({ searchParams }) {
     if (currentPage > 1) {
         title += ` - Halaman ${currentPage}`;
     }
-    title += " | PT GAB DIG JAYA";
+    title += " | PT GAB MATTIRO FLORESIND";
 
     // Build dynamic description
-    let description = `Jelajahi ${totalProjects} proyek konstruksi dan infrastruktur yang telah diselesaikan PT GAB DIG JAYA di seluruh Indonesia. `;
+    let description = `Jelajahi ${totalProjects} proyek konstruksi dan infrastruktur yang telah diselesaikan PT GAB MATTIRO FLORESIND di seluruh Indonesia. `;
     if (category && category !== "all") {
         const categoryProjects = projectsData.filter(p => p.category === category);
         const locations = [...new Set(categoryProjects.map(p => p.location))].slice(0, 3).join(", ");
@@ -50,7 +50,7 @@ export async function generateMetadata({ searchParams }) {
     const keywords = [
         "proyek konstruksi Indonesia",
         "portfolio infrastruktur",
-        "PT GAB DIG JAYA projects",
+        "PT GAB MATTIRO FLORESIND projects",
         ...uniqueCategories.map(cat => `proyek ${cat.toLowerCase()}`),
         ...uniqueLocations.slice(0, 5).map(loc => `konstruksi ${loc}`),
         ...uniqueTags.slice(0, 10),
@@ -81,7 +81,7 @@ export async function generateMetadata({ searchParams }) {
                     url: featuredProject?.image || "https://www.gab.co.id/images/og-projects.jpg",
                     width: 1200,
                     height: 630,
-                    alt: "PT GAB DIG JAYA Projects Portfolio",
+                    alt: "PT GAB MATTIRO FLORESIND Projects Portfolio",
                 },
             ],
         },
@@ -120,7 +120,7 @@ const generateProjectsStructuredData = (projects, category) => {
                 "@id": "https://www.gab.co.id/projects#collection",
                 url: "https://www.gab.co.id/projects",
                 name: category ? `${category} Projects Portfolio` : "All Projects Portfolio",
-                description: `Browse ${projects.length} construction and infrastructure projects from PT GAB DIG JAYA`,
+                description: `Browse ${projects.length} construction and infrastructure projects from PT GAB MATTIRO FLORESIND`,
                 isPartOf: {
                     "@id": "https://www.gab.co.id/#website",
                 },
@@ -133,7 +133,7 @@ const generateProjectsStructuredData = (projects, category) => {
             {
                 "@type": "ItemList",
                 "@id": "https://www.gab.co.id/projects#portfolio",
-                name: "PT GAB DIG JAYA Projects Portfolio",
+                name: "PT GAB MATTIRO FLORESIND Projects Portfolio",
                 description: "Complete portfolio of construction and infrastructure projects",
                 numberOfItems: projects.length,
                 itemListElement: projects.slice(0, 10).map((project, index) => ({
@@ -157,7 +157,7 @@ const generateProjectsStructuredData = (projects, category) => {
                         },
                         creator: {
                             "@type": "Organization",
-                            name: "PT GAB DIG JAYA",
+                            name: "PT GAB MATTIRO FLORESIND",
                         },
                         client: {
                             "@type": "Organization",
@@ -289,7 +289,7 @@ export default async function Projects({ searchParams }) {
                 highlightText="Projects"
                 description="Where Vision Turns Into Impact — Showcasing Our Proven Excellence."
                 buttonText="Explore!"
-                imageAlt="Portfolio Proyek PT GAB DIG JAYA - Konstruksi & Infrastruktur"
+                imageAlt="Portfolio Proyek PT GAB MATTIRO FLORESIND - Konstruksi & Infrastruktur"
                 onButtonClick={null}
                 children={<AutoPlayImage />}
             />

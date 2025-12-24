@@ -15,7 +15,7 @@ const generateProductKeywords = () => {
   const productNames = productsData.map(p => p.productName.toLowerCase());
 
   return [
-    "PT GAB DIG JAYA",
+    "PT GAB MATTIRO FLORESIND",
     "distributor mineral Indonesia",
     ...divisions.map(d => d.toLowerCase()),
     ...productNames,
@@ -34,33 +34,33 @@ const generateProductKeywords = () => {
 
 // SEO Metadata dengan data dinamis
 export const metadata = {
-  title: "PT GAB DIG JAYA - Distributor Produk Mineral Indonesia | Quicklime, Silica Sand, Zeolite",
-  description: `PT GAB DIG JAYA adalah perusahaan manufaktur dan distributor produk mineral berkualitas tinggi. Menyediakan ${productsData.length}+ produk mineral untuk industri termasuk Quicklime, Calcium Carbonate, Silica Sand, Zeolite, Bentonite, Manganese, dan Clay. Dipercaya oleh ${customerRatings.length}+ perusahaan industri terkemuka di Indonesia.`,
+  title: "PT GAB MATTIRO FLORESIND - Distributor Produk Mineral Indonesia | Quicklime, Silica Sand, Zeolite",
+  description: `PT GAB MATTIRO FLORESIND adalah perusahaan manufaktur dan distributor produk mineral berkualitas tinggi. Menyediakan ${productsData.length}+ produk mineral untuk industri termasuk Quicklime, Calcium Carbonate, Silica Sand, Zeolite, Bentonite, Manganese, dan Clay. Dipercaya oleh ${customerRatings.length}+ perusahaan industri terkemuka di Indonesia.`,
   keywords: generateProductKeywords(),
-  authors: [{ name: "PT GAB DIG JAYA" }],
-  creator: "PT GAB DIG JAYA",
-  publisher: "PT GAB DIG JAYA",
+  authors: [{ name: "PT GAB MATTIRO FLORESIND" }],
+  creator: "PT GAB MATTIRO FLORESIND",
+  publisher: "PT GAB MATTIRO FLORESIND",
 
   openGraph: {
     type: "website",
     locale: "id_ID",
     url: "https://www.gab.co.id",
-    siteName: "PT GAB DIG JAYA",
-    title: "PT GAB DIG JAYA - Distributor Produk Mineral & Material Industri Terpercaya",
+    siteName: "PT GAB MATTIRO FLORESIND",
+    title: "PT GAB MATTIRO FLORESIND - Distributor Produk Mineral & Material Industri Terpercaya",
     description: `Perusahaan manufaktur dan distributor terpercaya dengan ${productsData.length}+ produk mineral berkualitas tinggi untuk berbagai kebutuhan industri di Indonesia.`,
     images: [
       {
         url: "https://www.gab.co.id/images/og-gab-home.jpg",
         width: 1200,
         height: 630,
-        alt: "PT GAB DIG JAYA - Distributor Produk Mineral Indonesia",
+        alt: "PT GAB MATTIRO FLORESIND - Distributor Produk Mineral Indonesia",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "PT GAB DIG JAYA - Distributor Produk Mineral Indonesia",
+    title: "PT GAB MATTIRO FLORESIND - Distributor Produk Mineral Indonesia",
     description: `Manufaktur dan distributor ${productsData.length}+ produk mineral berkualitas tinggi untuk industri Indonesia.`,
     images: ["https://www.gab.co.id/images/twitter-gab-home.jpg"],
   },
@@ -108,7 +108,7 @@ const generateStructuredData = () => {
       {
         "@type": "Organization",
         "@id": "https://www.gab.co.id/#organization",
-        name: "PT GAB DIG JAYA",
+        name: "PT GAB MATTIRO FLORESIND",
         alternateName: "PT GAB MATTIRO FLORESIND",
         url: "https://www.gab.co.id",
         logo: {
@@ -117,7 +117,7 @@ const generateStructuredData = () => {
           width: 250,
           height: 60,
         },
-        description: "PT GAB DIG JAYA adalah perusahaan manufaktur dan distributor yang memfokuskan pada material industri: quicklime, limestone, calcium carbonate, silica sand, zeolite, bentonite, manganese, clay, dan pembenah tanah.",
+        description: "PT GAB MATTIRO FLORESIND adalah perusahaan manufaktur dan distributor yang memfokuskan pada material industri: quicklime, limestone, calcium carbonate, silica sand, zeolite, bentonite, manganese, clay, dan pembenah tanah.",
         address: {
           "@type": "PostalAddress",
           streetAddress: "Gedung Fancy Mampang, Mampang Prapatan Raya No.151 Lantai 4 Unit A7, RT.3/RW.1, Duren Tiga",
@@ -147,7 +147,7 @@ const generateStructuredData = () => {
         "@type": "WebSite",
         "@id": "https://www.gab.co.id/#website",
         url: "https://www.gab.co.id",
-        name: "PT GAB DIG JAYA",
+        name: "PT GAB MATTIRO FLORESIND",
         description: `Distributor dan manufaktur ${productsData.length}+ produk mineral berkualitas tinggi untuk industri di Indonesia`,
         publisher: {
           "@id": "https://www.gab.co.id/#organization",
@@ -163,7 +163,7 @@ const generateStructuredData = () => {
       {
         "@type": "ItemList",
         "@id": "https://www.gab.co.id/#products",
-        name: "Produk PT GAB DIG JAYA",
+        name: "Produk PT GAB MATTIRO FLORESIND",
         description: `Katalog lengkap ${productsData.length}+ produk mineral dan material industri`,
         numberOfItems: divisions.length,
         itemListElement: divisions.map((division, index) => ({
@@ -267,11 +267,11 @@ export default function Home() {
           <HomeBanner />
         </section>
 
-        <section id="explore" aria-label="Tentang PT GAB DIG JAYA">
+        <section id="explore" aria-label="Tentang PT GAB MATTIRO FLORESIND">
           <AboutUsComponent />
         </section>
 
-        <section aria-label="Mengapa Memilih PT GAB DIG JAYA">
+        <section aria-label="Mengapa Memilih PT GAB MATTIRO FLORESIND">
           <WhyUs />
         </section>
 

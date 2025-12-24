@@ -33,13 +33,13 @@ export async function generateMetadata({ params }) {
     };
 
     return {
-        title: `${news.title} | PT GAB DIG JAYA`,
+        title: `${news.title} | PT GAB MATTIRO FLORESIND`,
         description: news.excerpt || news.title,
         keywords: [
             ...news.tags,
             news.category,
             news.author,
-            "PT GAB DIG JAYA",
+            "PT GAB MATTIRO FLORESIND",
             "industri mineral",
             "berita konstruksi",
             news.title.toLowerCase(),
@@ -128,7 +128,7 @@ export default async function NewsDetailPage({ params }) {
         },
         publisher: {
             "@type": "Organization",
-            name: "PT GAB DIG JAYA",
+            name: "PT GAB MATTIRO FLORESIND",
             logo: {
                 "@type": "ImageObject",
                 url: "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763699326/GAB/assets/gab_olxssp.jpg",

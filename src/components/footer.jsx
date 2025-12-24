@@ -38,7 +38,7 @@ export const Footer = () => {
                             src="/icon.png"
                             className={`w-15 h-15 object-cover`}
                             alt="Logo" />
-                        <h2 className="text-2xl font-bold mb-4">GAB</h2>
+                        <h2 className="text-2xl font-bold mb-4">PT GAB Mattiro Floresind</h2>
                         <p className="text-sm opacity-70 leading-relaxed max-w-md">
                             Perusahaan manufaktur dan distributor material industri berkualitas tinggi untuk kebutuhan industri Indonesia.
                         </p>

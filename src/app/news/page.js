@@ -38,10 +38,10 @@ export async function generateMetadata({ searchParams }) {
     if (currentPage > 1) {
         title += ` - Halaman ${currentPage}`;
     }
-    title += " | PT GAB DIG JAYA";
+    title += " | PT GAB MATTIRO FLORESIND";
 
     // Build dynamic description
-    let description = `Baca ${totalArticles}+ artikel dan berita terbaru seputar industri mineral, konstruksi, engineering, dan material industri dari PT GAB DIG JAYA. `;
+    let description = `Baca ${totalArticles}+ artikel dan berita terbaru seputar industri mineral, konstruksi, engineering, dan material industri dari PT GAB MATTIRO FLORESIND. `;
     if (category && category !== "all") {
         description += `Fokus pada kategori ${formatCategoryName(category)}. `;
     }
@@ -52,7 +52,7 @@ export async function generateMetadata({ searchParams }) {
         "berita industri mineral",
         "artikel konstruksi",
         "news engineering",
-        "PT GAB DIG JAYA",
+        "PT GAB MATTIRO FLORESIND",
         ...uniqueCategories.map(cat => `berita ${cat.toLowerCase()}`),
         ...latestNews.map(news => news.title.toLowerCase()),
         "quicklime news",
@@ -80,7 +80,7 @@ export async function generateMetadata({ searchParams }) {
                     url: latestNews[0]?.image || "https://www.gab.co.id/images/og-news.jpg",
                     width: 1200,
                     height: 630,
-                    alt: "PT GAB DIG JAYA News",
+                    alt: "PT GAB MATTIRO FLORESIND News",
                 },
             ],
         },
@@ -117,12 +117,12 @@ const generateNewsStructuredData = (newsItems, category) => {
                 "@type": "Blog",
                 "@id": "https://www.gab.co.id/news#blog",
                 url: "https://www.gab.co.id/news",
-                name: "PT GAB DIG JAYA News & Articles",
-                description: "Berita dan artikel seputar industri mineral, konstruksi, dan engineering dari PT GAB DIG JAYA",
+                name: "PT GAB MATTIRO FLORESIND News & Articles",
+                description: "Berita dan artikel seputar industri mineral, konstruksi, dan engineering dari PT GAB MATTIRO FLORESIND",
                 publisher: {
                     "@type": "Organization",
                     "@id": "https://www.gab.co.id/#organization",
-                    name: "PT GAB DIG JAYA",
+                    name: "PT GAB MATTIRO FLORESIND",
                     logo: {
                         "@type": "ImageObject",
                         url: "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763699326/GAB/assets/gab_olxssp.jpg",
@@ -142,7 +142,7 @@ const generateNewsStructuredData = (newsItems, category) => {
                     },
                     publisher: {
                         "@type": "Organization",
-                        name: "PT GAB DIG JAYA",
+                        name: "PT GAB MATTIRO FLORESIND",
                         logo: {
                             "@type": "ImageObject",
                             url: "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763699326/GAB/assets/gab_olxssp.jpg",
@@ -265,7 +265,7 @@ export default async function News({ searchParams }) {
                 highlightText="Updates"
                 titleClassName="text-3xl! md:text-4xl! flex-row! gap-1"
                 buttonClassName="hidden"
-                imageAlt="Latest News and Updates from PT GAB DIG JAYA"
+                imageAlt="Latest News and Updates from PT GAB MATTIRO FLORESIND"
                 onButtonClick={null}
             />
 

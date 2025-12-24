@@ -8,12 +8,12 @@ import { companyStats, faqs } from "@/system";
 
 // SEO Metadata
 export const metadata = {
-    title: "Tentang Kami - PT GAB DIG JAYA | Manufaktur & Distributor Mineral Industri Terpercaya",
-    description: "PT GAB DIG JAYA adalah perusahaan manufaktur dan distributor produk mineral berkualitas tinggi sejak [tahun]. Dengan 6+ divisi industri dan 20+ produk premium, kami melayani kebutuhan material industri di seluruh Indonesia dengan integritas dan profesionalisme.",
+    title: "Tentang Kami - PT GAB MATTIRO FLORESIND | Manufaktur & Distributor Mineral Industri Terpercaya",
+    description: "PT GAB MATTIRO FLORESIND adalah perusahaan manufaktur dan distributor produk mineral berkualitas tinggi sejak [tahun]. Dengan 6+ divisi industri dan 20+ produk premium, kami melayani kebutuhan material industri di seluruh Indonesia dengan integritas dan profesionalisme.",
     keywords: [
-        "tentang PT GAB DIG JAYA",
+        "tentang PT GAB MATTIRO FLORESIND",
         "profil perusahaan mineral",
-        "sejarah GAB DIG JAYA",
+        "sejarah GAB MATTIRO FLORESIND",
         "visi misi perusahaan",
         "manufaktur mineral Indonesia",
         "distributor quicklime terpercaya",
@@ -24,7 +24,7 @@ export const metadata = {
     ],
 
     openGraph: {
-        title: "Tentang Kami - PT GAB DIG JAYA",
+        title: "Tentang Kami - PT GAB MATTIRO FLORESIND",
         description: "Manufaktur dan distributor produk mineral berkualitas tinggi dengan 6+ divisi industri dan 20+ produk premium untuk kebutuhan industri Indonesia.",
         url: "https://www.gab.co.id/about-us",
         type: "website",
@@ -33,14 +33,14 @@ export const metadata = {
                 url: "https://images.unsplash.com/photo-1653273760914-a83a14062bbe?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1200",
                 width: 1200,
                 height: 630,
-                alt: "PT GAB DIG JAYA - Perusahaan Mineral Industri Terpercaya",
+                alt: "PT GAB MATTIRO FLORESIND - Perusahaan Mineral Industri Terpercaya",
             },
         ],
     },
 
     twitter: {
         card: "summary_large_image",
-        title: "Tentang Kami - PT GAB DIG JAYA",
+        title: "Tentang Kami - PT GAB MATTIRO FLORESIND",
         description: "Manufaktur dan distributor produk mineral berkualitas tinggi untuk industri Indonesia.",
         images: ["https://images.unsplash.com/photo-1653273760914-a83a14062bbe?auto=format&fit=crop&q=80&w=1200"],
     },
@@ -62,16 +62,16 @@ export default function AboutUs() {
         "@type": "AboutPage",
         "@id": "https://www.gab.co.id/about-us#aboutpage",
         url: "https://www.gab.co.id/about-us",
-        name: "About PT GAB DIG JAYA",
-        description: "Informasi lengkap tentang PT GAB DIG JAYA, visi misi, dan komitmen kami dalam menyediakan produk mineral berkualitas tinggi",
+        name: "About PT GAB MATTIRO FLORESIND",
+        description: "Informasi lengkap tentang PT GAB MATTIRO FLORESIND, visi misi, dan komitmen kami dalam menyediakan produk mineral berkualitas tinggi",
         mainEntity: {
             "@type": "Organization",
             "@id": "https://www.gab.co.id/#organization",
-            name: "PT GAB DIG JAYA",
+            name: "PT GAB MATTIRO FLORESIND",
             alternateName: "PT GAB MATTIRO FLORESIND",
             url: "https://www.gab.co.id",
             logo: "https://res.cloudinary.com/dr5dlofvv/image/upload/v1763699326/GAB/assets/gab_olxssp.jpg",
-            description: "PT GAB DIG JAYA adalah perusahaan manufaktur dan distributor yang memfokuskan pada material industri: milk lime, limestone, powder lime, calcium carbonate, clay, zeolit, bentonite, pasir kuarsa, silica sand, dan pembenah tanah.",
+            description: "PT GAB MATTIRO FLORESIND adalah perusahaan manufaktur dan distributor yang memfokuskan pada material industri: milk lime, limestone, powder lime, calcium carbonate, clay, zeolit, bentonite, pasir kuarsa, silica sand, dan pembenah tanah.",
             foundingDate: "YYYY",
             slogan: "BECOMING GLOBAL PLAYER FOR VALUE ADDED MINERAL PRODUCT",
             address: {
@@ -109,7 +109,7 @@ export default function AboutUs() {
         "@context": "https://schema.org",
         "@type": "ItemList",
         "@id": "https://www.gab.co.id/about-us#statistics",
-        name: "PT GAB DIG JAYA Company Statistics",
+        name: "PT GAB MATTIRO FLORESIND Company Statistics",
         itemListElement: companyStats.map((stat, index) => ({
             "@type": "ListItem",
             position: index + 1,
@@ -180,7 +180,7 @@ export default function AboutUs() {
                 buttonText="Explore!"
                 buttonIcon={<FaCompass />}
                 imageSrc="https://images.unsplash.com/photo-1653273760914-a83a14062bbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
-                imageAlt="Tentang PT GAB DIG JAYA - Perusahaan Manufaktur Mineral Terpercaya"
+                imageAlt="Tentang PT GAB MATTIRO FLORESIND - Perusahaan Manufaktur Mineral Terpercaya"
                 onButtonClick={null}
             />
 

@@ -106,7 +106,7 @@ export const companyStats = [
 
 export const faqs = [
   {
-    question: "Apa fokus utama PT. GAB DIG JAYA?",
+    question: "Apa fokus utama PT. GAB MATTIRO FLORESIND?",
     answer: "Kami bergerak di bidang manufaktur dan distribusi material industri, termasuk Quicklime, Calcium Carbonate, Silica, Zeolite, Bentonite, Manganese, dan Clay untuk berbagai aplikasi industri."
   },
   {
@@ -122,7 +122,7 @@ export const faqs = [
     answer: "Kami telah bekerja sama dengan industri besar seperti PT. Cikarang Listrindo, PT. Riken Indonesia, PT. Walbric Indonesia, dan PT. Sika Indonesia, memberikan kepercayaan sebagai pemasok material berkualitas."
   },
   {
-    question: "Apakah PT. GAB DIG JAYA berkomitmen pada keberlanjutan?",
+    question: "Apakah PT. GAB MATTIRO FLORESIND berkomitmen pada keberlanjutan?",
     answer: "Ya, melalui R&D dan produk ramah lingkungan seperti Green Lime Series dan produk kontrol debu & erosi, kami mendukung praktik industri yang berkelanjutan."
   }
 ]
@@ -132,7 +132,7 @@ export const customerRatings = [
     name: "Andi Pratama",
     company: "PT. Cikarang Listrindo",
     rating: 5,
-    comment: "Produk berkualitas tinggi dan pengiriman selalu tepat waktu. Sangat puas dengan layanan GAB DIG JAYA!"
+    comment: "Produk berkualitas tinggi dan pengiriman selalu tepat waktu. Sangat puas dengan layanan GAB MATTIRO FLORESIND!"
   },
   {
     name: "Siti Rahmawati",
@@ -156,7 +156,7 @@ export const customerRatings = [
     name: "Rizky Firmansyah",
     company: "PT. ABC Industri",
     rating: 4.8,
-    comment: "Pengalaman terbaik bekerja sama dengan GAB DIG JAYA. Profesional dan cepat tanggap."
+    comment: "Pengalaman terbaik bekerja sama dengan GAB MATTIRO FLORESIND. Profesional dan cepat tanggap."
   }
 ];
 
