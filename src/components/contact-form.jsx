@@ -3,6 +3,9 @@ import { useState } from "react"
 import Image from "next/image"
 import { Button } from "./ui/button"
 import { BsSend } from "react-icons/bs"
+import { FaWhatsapp } from "react-icons/fa6"
+import { mainGmail, mainWhatsapp, secWhatsapp } from "@/system"
+import { FaMailBulk } from "react-icons/fa"
 
 export const ContactUs = () => {
     const [formData, setFormData] = useState({
@@ -60,6 +63,44 @@ export const ContactUs = () => {
                         className="object-cover grayscale hover:grayscale-0 duration-500"
                         priority
                     />
+                    <div className="absolute top-5 left-5 z-50">
+                        <div className="flex flex-wrap gap-2">
+                            <a href={mainWhatsapp}>
+                                <div className="p-4 space-y-2 bg-darkColor/20 backdrop-blur-xl rounded-main border border-neutral-500/20 hover:bg-darkColor duration-200 cursor-pointer">
+                                    <div className="flex items-center gap-2 text-xs font-medium uppercase">
+                                        <FaWhatsapp />
+                                        Whatsapp 1
+                                    </div>
+                                    <p className="text-sm">
+                                        +62 817-1771-1666
+                                    </p>
+                                </div>
+                            </a>
+                            <a href={secWhatsapp}>
+                                <div className="p-4 space-y-2 bg-darkColor/20 backdrop-blur-xl rounded-main border border-neutral-500/20 hover:bg-darkColor duration-200 cursor-pointer">
+                                    <div className="flex items-center gap-2 text-xs font-medium uppercase">
+                                        <FaWhatsapp />
+                                        Whatsapp 2
+                                    </div>
+                                    <p className="text-sm">
+                                        +62 812-9204-3135
+                                    </p>
+                                </div>
+                            </a>
+
+                            <a href={mainGmail}>
+                                <div className="p-4 space-y-2 bg-darkColor/20 backdrop-blur-xl rounded-main border border-neutral-500/20 hover:bg-darkColor duration-200 cursor-pointer">
+                                    <div className="flex items-center gap-2 text-xs font-medium uppercase">
+                                        <FaMailBulk />
+                                        Mail
+                                    </div>
+                                    <p className="text-sm">
+                                        mailto:gabmattirofloresind@gmail.com
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                     <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent flex items-end p-8">
                         <div>
                             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-2">

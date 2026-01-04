@@ -6,6 +6,8 @@ import { IoArrowUp } from "react-icons/io5";
 import { MegaSearch } from "./mega-search";
 import { Button } from "./ui/button";
 import { X } from "lucide-react";
+import Link from "next/link";
+import { mainWhatsapp } from "@/system";
 
 
 export const FloatingButtons = () => {
@@ -47,6 +49,19 @@ export const FloatingButtons = () => {
 
     return (
         <>
+            <div className="hidden md:block fixed bottom-15 md:bottom-5 right-4 md:right-5 z-100">
+                <section className="flex flex-col gap-2 md:gap-3 duration-300">
+                    <Link
+                        href={mainWhatsapp}
+                        target="_blank"
+                    >
+                        <button className="bg-[#28b642] hover:bg-[#35a549] hover:scale-95 duration-300 ease-in-out text-white text-2xl font-bold md:p-3 rounded-full shadow-lg">
+                            <FaWhatsapp />
+                        </button>
+                    </Link>
+                </section>
+            </div>
+
             <section className="lg:hidden fixed top-2 right-2 z-50">
                 <div className="flex flex-row gap-1 p-1 bg-lightColor/10 rounded-full border border-neutral-500/20 backdrop-blur-xs transition-all duration-300">
                     <button

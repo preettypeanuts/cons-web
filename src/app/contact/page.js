@@ -134,7 +134,7 @@ export default function Contact() {
                 buttonIcon={<FaPhone />}
                 imageSrc="https://images.unsplash.com/photo-1593630987785-98139c5f3cc6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
                 imageAlt="Hubungi PT GAB MATTIRO FLORESIND - Konsultasi Produk Mineral Industri"
-                href="https://api.whatsapp.com/send/?phone=6285779047739"
+                href="https://api.whatsapp.com/send/?phone=6281717711666"
             />
 
             <ContactUs />

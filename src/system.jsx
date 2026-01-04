@@ -3,6 +3,12 @@ import { FaHandshakeSimple } from "react-icons/fa6";
 import { HiBuildingLibrary, HiCube, HiPhone } from "react-icons/hi2";
 import { MdConstruction } from "react-icons/md";
 
+export const mainWhatsapp = "https://api.whatsapp.com/send/?phone=6281717711666";
+export const secWhatsapp = "https://api.whatsapp.com/send/?phone=6281292043135";
+export const mainGmail = "mailto:gabmattirofloresind@gmail.com";
+
+
+
 export const NavbarItems = [
   {
     label: "Home",

@@ -20,8 +20,8 @@ export const Footer = () => {
             { label: "Infrastruktur", href: "/products/infrastruktur" }
         ],
         social: [
-            { icon: <BsWhatsapp />, href: "https://api.whatsapp.com/send/?phone=6285779047739", label: "Whatsapp" },
-            { icon: <BsMailbox />, href: "mailto:gab.system2025", label: "Gmail" },
+            { icon: <BsWhatsapp />, href: "https://api.whatsapp.com/send/?phone=6281717711666", label: "Whatsapp" },
+            { icon: <BsMailbox />, href: "mailto:gabmattirofloresind@gmail.com", label: "Gmail" },
         ]
     }
 
